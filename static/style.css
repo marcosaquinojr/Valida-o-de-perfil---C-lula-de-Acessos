@@ -1,0 +1,139 @@
+/* --- GERAL E LAYOUT --- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+    --cor-primaria: #0d6efd;
+    --cor-sucesso: #198754;
+    --cor-aviso: #664d03;
+    --cor-perigo: #dc3545;
+    --cor-secundaria: #6c757d;
+    --cor-fundo-sucesso-claro: #d1e7dd;
+    --cor-fundo-primario-claro: #e7f1ff;
+    --cor-borda-primario-claro: #b6d4fe;
+    --cor-fundo-aviso: #fff3cd;
+    --cor-fundo-perigo: #f8d7da;
+    --cor-borda: #dee2e6;
+    --cor-fundo: #f8f9fa;
+    --cor-texto: #212529;
+    --cor-texto-secundario: #6c757d;
+    --sombra-suave: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 2em;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: var(--sombra-suave);
+    border: 1px solid #e9ecef;
+}
+
+.app-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem; }
+.app-header .app-logo { width: 48px; height: 48px; object-fit: contain; flex-shrink: 0; }
+.app-header h1 { font-size: 1.75rem; font-weight: 700; margin: 0; line-height: 1.2; }
+.app-header .app-slogan { font-size: 0.95rem; font-weight: 400; color: var(--cor-texto-secundario); margin: 0.25rem 0 0 0; }
+
+h2 { font-weight: 600; border-bottom: 1px solid var(--cor-borda); padding-bottom: 0.5rem; margin-bottom: 1.5rem; }
+h3 { font-weight: 600; }
+
+/* --- ABAS (TABS) --- */
+.tabs { display: flex; border-bottom: 1px solid var(--cor-borda); margin-bottom: 2rem; }
+.tab-button { padding: 0.75rem 1rem; margin-right: 1.5rem; margin-bottom: -1px; cursor: pointer; border: none; background: none; font-size: 1rem; color: var(--cor-texto-secundario); font-weight: 500; border-bottom: 2px solid transparent; transition: all 0.2s ease; }
+.tab-button:hover { color: var(--cor-texto); }
+.tab-button.active { color: var(--cor-primaria); border-bottom-color: var(--cor-primaria); font-weight: 600; }
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* --- FORMULÁRIOS --- */
+label { font-weight: 500; margin-bottom: 0.5rem; display: block; color: #495057; }
+select, input[type="text"], input[type="button"], input[type="submit"] { width: 100%; padding: 0.8rem; margin-bottom: 1rem; border-radius: 8px; border: 1px solid #ced4da; box-sizing: border-box; font-size: 1rem; background-color: var(--cor-fundo); transition: border-color 0.2s, box-shadow 0.2s; }
+select:focus, input[type="text"]:focus { border-color: #86b7fe; outline: 0; box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25); }
+input[type="button"], input[type="submit"] { background-color: var(--cor-primaria); color: white; border: none; cursor: pointer; font-weight: 500; }
+input:disabled, select:disabled, .custom-file-upload.disabled { background-color: #e9ecef !important; cursor: not-allowed !important; opacity: 0.7; }
+label.disabled { cursor: not-allowed !important; opacity: 0.7; }
+
+/* --- COMPONENTE DE UPLOAD DE ARQUIVO --- */
+.custom-file-upload { border: 2px dashed var(--cor-borda); border-radius: 8px; padding: 1.5rem; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; cursor: pointer; transition: border-color 0.2s, background-color 0.2s; margin-bottom: 1rem; }
+.custom-file-upload:not(.disabled):hover { border-color: var(--cor-primaria); background-color: #fcfdff; }
+.custom-file-upload input[type="file"] { display: none; }
+.file-upload-icon { font-size: 2rem; color: var(--cor-primaria); margin-bottom: 0.5rem; }
+.file-upload-text { font-weight: 500; color: var(--cor-texto-secundario); }
+.file-info { margin-top: 1rem; font-size: 0.9rem; color: var(--cor-texto); display: none; align-items: center; gap: 0.5rem; font-weight: 500; }
+.file-success-icon { color: var(--cor-sucesso); font-weight: bold; font-size: 1.2rem; }
+
+/* --- ÁREA DE RESULTADOS E CARTÃO --- */
+#loading { display: none; text-align: center; margin-top: 2rem; color: var(--cor-texto-secundario); }
+.results-card { text-align: center; padding: 2.5rem; border: 1px solid var(--cor-borda); border-radius: 12px; margin-top: 2rem; margin-bottom: 2rem; }
+.results-card .icon-display { display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 50%; font-size: 1.5rem; }
+.results-card .icon-success { background-color: var(--cor-fundo-sucesso-claro); color: var(--cor-sucesso); }
+.results-card .icon-warning { background-color: var(--cor-fundo-aviso); color: var(--cor-aviso); }
+.results-card h3 { margin: 1rem 0 0.5rem 0; font-size: 1.25rem; font-weight: 600; }
+.results-card .hero-number { font-size: 3.5rem; font-weight: 600; color: var(--cor-sucesso); margin: 0; line-height: 1; }
+.results-card .hero-label { color: var(--cor-texto-secundario); margin: 0.5rem 0 1.5rem 0; }
+.results-actions { display: flex; justify-content: center; gap: 1rem; margin-top: 2rem; }
+.results-actions .action-btn { flex: 1; max-width: 250px; text-decoration: none; display: inline-block; font-weight: 500; padding: 0.8rem 1.5rem; border-radius: 8px; border: 1px solid var(--cor-primaria); font-size: 0.95rem; cursor: pointer; transition: all 0.2s ease; }
+.results-actions .btn-primary { background-color: var(--cor-primaria); color: white; }
+.results-actions .btn-primary:hover { background-color: #0b5ed7; border-color: #0b5ed7; }
+.results-actions .btn-secondary { background-color: transparent; color: var(--cor-primaria); }
+.results-actions .btn-secondary:hover { background-color: #e7f1ff; }
+.alerta { display: none; background-color: var(--cor-fundo-aviso); color: var(--cor-aviso); border: 1px solid #ffecb5; border-radius: 8px; padding: 1rem; margin: 1.5rem 0 0 0; text-align: center; font-weight: 500; }
+.helper-text { font-size: 0.9rem; color: var(--cor-texto-secundario); text-align: center; margin-top: -0.5rem; margin-bottom: 1.5rem; }
+
+/* --- ESTILO DAS TABELAS (ACCORDION E HISTÓRICO) --- */
+.accordion-item { border: 1px solid var(--cor-borda); border-radius: 8px; margin-bottom: 0.5rem; overflow: hidden; }
+.accordion-header { width: 100%; background: var(--cor-fundo); padding: 1rem; border: none; text-align: left; font-size: 1rem; font-weight: 500; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+.accordion-header:hover { background: #e9ecef; }
+.accordion-header .arrow { transition: transform 0.2s ease; font-size: 0.8rem; }
+.accordion-header.active .arrow { transform: rotate(180deg); }
+.accordion-content { padding: 0; max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out; }
+.result-table, .history-table { width: 100%; border-collapse: collapse; }
+.result-table th, .result-table td, .history-table th, .history-table td { padding: 0.8rem 1rem; text-align: left; border-bottom: 1px solid var(--cor-borda); }
+.result-table thead, .history-table thead { border-bottom: 2px solid var(--cor-borda); }
+.result-table th, .history-table th { font-weight: 500; font-size: 0.9rem; color: var(--cor-texto-secundario); }
+.history-table { margin-top: 1.5rem; font-size: 0.95rem; }
+.status-badge { padding: 0.25em 0.6em; font-size: 0.75rem; font-weight: 600; border-radius: 1rem; color: #fff; text-transform: uppercase; letter-spacing: 0.5px; }
+.status-ativo { background-color: var(--cor-sucesso); }
+.status-valido { background-color: var(--cor-primaria); }
+.status-inválido { background-color: var(--cor-perigo); }
+.status-arquivado { background-color: var(--cor-secundaria); }
+.btn-ativar { padding: 0.3rem 0.8rem; font-size: 0.85rem; font-weight: 500; color: var(--cor-sucesso); background-color: transparent; border: 1px solid var(--cor-sucesso); border-radius: 6px; text-decoration: none; transition: all 0.2s ease; }
+.btn-ativar:hover { background-color: #d1e7dd; color: #0f5132; }
+
+/* --- ESTILO DO MODAL --- */
+.modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); align-items: center; justify-content: center; }
+.modal-content { background-color: #fff; padding: 2rem 2.5rem; border-radius: 12px; box-shadow: var(--sombra-suave); width: 90%; max-width: 500px; }
+.modal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;}
+.modal-header h3 { margin: 0; font-size: 1.25rem; font-weight: 600; }
+.close-button { color: #aaa; font-size: 28px; font-weight: bold; cursor: pointer; transition: color 0.2s; }
+.close-button:hover { color: #000; }
+.modal-footer { margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid #e9ecef; text-align: center; font-size: 0.85rem; color: var(--cor-texto-secundario); }
+
+/* --- ESTILO DO RODAPÉ DA PÁGINA --- */
+.page-footer { text-align: center; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--cor-borda); font-size: 0.9rem; color: var(--cor-texto-secundario); }
+.page-footer a { color: var(--cor-primaria); text-decoration: none; font-weight: 500; }
+.page-footer a:hover { text-decoration: underline; }
+
+/* --- ESTILO DAS NOTIFICAÇÕES (TOASTS) --- */
+.toast-container { position: fixed; top: 1.5rem; right: 1.5rem; z-index: 2000; display: flex; flex-direction: column; gap: 1rem; }
+.toast { display: flex; align-items: center; gap: 0.75rem; min-width: 350px; max-width: 400px; padding: 1rem 1.25rem; border-radius: 8px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); border: 1px solid; animation: fadeIn 0.4s ease-out; }
+.toast.fade-out { animation: fadeOut 0.4s ease-in forwards; }
+.toast-icon { font-size: 1.1rem; line-height: 1; }
+.toast-message { font-weight: 500; flex-grow: 1; }
+.toast-close { background: none; border: none; font-size: 1.5rem; line-height: 1; color: inherit; opacity: 0.6; cursor: pointer; padding: 0 0 0 1rem; }
+.toast-close:hover { opacity: 1; }
+.toast-success { color: var(--cor-primaria); background-color: var(--cor-fundo-primario-claro); border-color: var(--cor-borda-primario-claro); }
+.toast-danger { color: var(--cor-perigo); background-color: var(--cor-fundo-perigo); border-color: #f5c2c7; }
+.toast-warning { color: var(--cor-aviso); background-color: var(--cor-fundo-aviso); border-color: #ffecb5; }
+@keyframes fadeIn { from { opacity: 0; transform: translateX(50px); } to { opacity: 1; transform: translateX(0); } }
+@keyframes fadeOut { from { opacity: 1; transform: translateX(0); } to { opacity: 0; transform: translateX(50px); } }

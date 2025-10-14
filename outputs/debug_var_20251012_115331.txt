@@ -1,0 +1,2294 @@
+[01] currículo e oferta
+[01.01] aluno e professor
+[01.01.01] alunos
+[01.01.01.01] painel de responsáveis
+[01.01.01.02] log de movimentações
+[01.01.01.03] visualizar termo de consentimento de uso de imagem e voz
+[01.01.01.04] visualizar anexo ficha médica flexível
+[01.01.01.05] enviar documento para assinatura
+[01.01.01.06] incluir aluno
+[01.01.01.07] excluir aluno
+[01.01.01.08] editar aluno
+[01.01.01.09] cursos / habilitações
+[01.01.01.09.01] incluir curso / habilitação
+[01.01.01.09.02] excluir curso / habilitação
+[01.01.01.09.03] editar curso / habilitação
+[01.01.01.09.04] avaliações processo seletivo
+[01.01.01.09.04.01] incluir avaliações processo seletivo
+[01.01.01.09.04.02] exclusão avaliações processo seletivo
+[01.01.01.09.04.03] editar avaliações processo seletivo
+[01.01.01.09.05] aproveitamento de estudo
+[01.01.01.09.05.01] incluir aproveitamento de estudo
+[01.01.01.09.05.02] excluir aproveitamento de estudo
+[01.01.01.09.05.03] editar aproveitamento de estudo
+[01.01.01.09.05.04] disciplinas de origem
+[01.01.01.09.05.04.01] incluir disciplinas de origem
+[01.01.01.09.05.04.02] excluir disciplinas de origem
+[01.01.01.09.05.04.03] editar disciplinas de origem
+[01.01.01.09.05.04.04] professores responsáveis
+[01.01.01.09.05.04.04.01] incluir professor
+[01.01.01.09.05.04.04.02] excluir professor
+[01.01.01.09.05.04.04.03] editar professor
+[01.01.01.09.05.05] professores responsáveis
+[01.01.01.09.05.05.01] incluir professor
+[01.01.01.09.05.05.02] excluir professor
+[01.01.01.09.05.05.03] editar professor
+[01.01.01.09.06] equivalência de disciplina
+[01.01.01.09.06.01] incluir equivalência de disciplina
+[01.01.01.09.06.02] excluir equivalência de disciplina
+[01.01.01.09.07] análise curricular
+[01.01.01.09.08] disciplinas extras
+[01.01.01.09.08.01] editar disciplina extra
+[01.01.01.09.09] atualização de disciplinas extras
+[01.01.01.09.10] matriz curricular do aluno
+[01.01.01.09.10.01] incluir matriz curricular do aluno
+[01.01.01.09.10.02] excluir matriz curricular do aluno
+[01.01.01.09.10.03] editar matriz curricular do aluno
+[01.01.01.09.10.04] períodos do aluno
+[01.01.01.09.10.04.01] incluir períodos do aluno
+[01.01.01.09.10.04.02] excluir períodos do aluno
+[01.01.01.09.10.04.03] editar períodos do aluno
+[01.01.01.09.10.04.04] disciplinas da matriz curricular do aluno
+[01.01.01.09.10.04.04.01] incluir disciplina da matriz curricular do aluno
+[01.01.01.09.10.04.04.02] excluir disciplina da matriz curricular do aluno
+[01.01.01.09.10.04.04.03] editar disciplina da matriz curricular do aluno
+[01.01.01.09.10.04.04.04] requisitos da disciplina do aluno
+[01.01.01.09.10.04.04.04.01] incluir requisitos da disciplina do aluno
+[01.01.01.09.10.04.04.04.02] excluir requisitos da disciplina do aluno
+[01.01.01.09.10.04.04.04.03] editar requisitos da disciplina do aluno
+[01.01.01.09.10.04.04.05] disciplinas filhas
+[01.01.01.09.10.04.04.05.01] incluir disciplina filhas
+[01.01.01.09.10.04.04.05.02] excluir disciplina filhas
+[01.01.01.09.10.04.04.05.03] editar disciplina filhas
+[01.01.01.09.10.05] disciplinas optativas / eletivas
+[01.01.01.09.10.05.01] incluir disciplina optativa / eletiva
+[01.01.01.09.10.05.02] excluir disciplina optativa / eletiva
+[01.01.01.09.10.05.03] editar disciplina optativa / eletiva
+[01.01.01.09.10.06] grupos de disciplinas optativas / eletivas
+[01.01.01.09.10.06.01] incluir grupo de disciplina optativa / eletiva
+[01.01.01.09.10.06.02] excluir grupo de disciplina optativa / eletiva
+[01.01.01.09.10.06.03] editar grupo de disciplina optativa / eletiva
+[01.01.01.09.10.06.04] disciplinas do grupo
+[01.01.01.09.10.06.04.01] incluir disciplina do grupo
+[01.01.01.09.10.06.04.02] excluir disciplina do grupo
+[01.01.01.09.10.06.04.03] editar disciplina do grupo
+[01.01.01.09.11] componentes curriculares do aluno
+[01.01.01.09.11.01] incluir componente curricular
+[01.01.01.09.11.02] excluir componente curricular
+[01.01.01.09.11.03] editar componente curricular
+[01.01.01.09.11.04] itens curriculares
+[01.01.01.09.11.04.01] incluir item curricular
+[01.01.01.09.11.04.02] excluir item curricular
+[01.01.01.09.11.04.03] editar item curricular
+[01.01.01.09.12] histórico de ingresso no curso
+[01.01.01.09.12.01] incluir histórico de ingresso no curso
+[01.01.01.09.12.02] excluir histórico de ingresso no curso
+[01.01.01.09.12.03] editar histórico de ingresso no curso
+[01.01.01.09.12.04] histórico de avaliações
+[01.01.01.09.12.04.01] incluir histórico de avaliações
+[01.01.01.09.12.04.02] excluir histórico de avaliações
+[01.01.01.09.12.04.03] editar histórico de avaliações
+[01.01.01.09.13] atualizar campos dos cursos / habilitações
+[01.01.01.09.14] gera aproveitamento de estudo para equivaências entre períodos letivos
+[01.01.01.10] documentos solicitados
+[01.01.01.10.01] incluir documentos
+[01.01.01.10.02] excluir documentos
+[01.01.01.10.03] editar documentos
+[01.01.01.11] histórico ensino básico
+[01.01.01.11.01] incluir histórico do ensino básico
+[01.01.01.11.02] excluir histórico do ensino básico
+[01.01.01.11.03] editar histórico do ensino básico
+[01.01.01.11.04] disciplinas do histórico
+[01.01.01.11.04.01] incluir disciplinas do histórico
+[01.01.01.11.04.02] excluir disciplinas do histórico
+[01.01.01.11.04.03] editar disciplinas do histórico
+[01.01.01.11.04.04] área do conhecimento da disciplina do histórico
+[01.01.01.11.04.04.01] incluir área do conhecimento da disciplina do histórico
+[01.01.01.11.04.04.02] excluir área do conhecimento da disciplina do histórico
+[01.01.01.11.04.04.03] editar área do conhecimento da disciplina do histórico
+[01.01.01.12] ocorrência do aluno
+[01.01.01.12.01] incluir ocorrência do aluno
+[01.01.01.12.02] excluir ocorrência do aluno
+[01.01.01.12.03] editar ocorrência do aluno
+[01.01.01.12.04] visualizar informações de 'ocorrência do aluno' sem restrição por webservice
+[01.01.01.13] alterar a senha do usuário
+[01.01.01.14] conta corrente do aluno
+[01.01.01.14.01] transfere valores em conta corrente
+[01.01.01.15] aproveitar valores em conta corrente
+[01.01.01.15.01] editar matriz aplicada no registro da conta corrente
+[01.01.01.16] envio de email
+[01.01.01.17] tutor do aluno
+[01.01.01.18] responsáveis do aluno
+[01.01.01.18.01] incluir responsáveis do aluno
+[01.01.01.18.02] editar responsáveis do aluno
+[01.01.01.19] excluir responsáveis do aluno
+[01.01.01.20] geração de usuários (alunos)
+[01.01.01.21] atendimentos
+[01.01.01.22] visualizar informações do aluno sem restrição por webservice
+[01.01.07] professores
+[01.01.07.01] atividades extras
+[01.01.07.01.01] incluir atividade extra
+[01.01.07.01.02] excluir atividade extra
+[01.01.07.01.03] editar atividade extra
+[01.01.07.02] grupos de atividades
+[01.01.07.02.01] incluir grupo de atividades
+[01.01.07.02.02] excluir grupo de atividades
+[01.01.07.02.03] editar grupo de atividades
+[01.01.07.03] titulação
+[01.01.07.03.01] incluir titulação
+[01.01.07.03.02] excluir titulação
+[01.01.07.03.03] editar titulação
+[01.01.07.03.04] horas-aula por titulação e função
+[01.01.07.03.04.01] incluir hora-aula por titulação e função
+[01.01.07.03.04.02] excluir hora-aula por tutulação e função
+[01.01.07.03.04.03] editar hora-aula por titulação e função
+[01.01.07.04] adicional por aluno
+[01.01.07.04.01] incluir adicional por aluno
+[01.01.07.04.02] excluir adicional por aluno
+[01.01.07.04.03] editar adicional por aluno
+[01.01.07.05] função de professor
+[01.01.07.05.01] incluir função de professor
+[01.01.07.05.02] excluir função de professor
+[01.01.07.05.03] editar fução de professor
+[01.01.07.06] log de movimentações
+[01.01.07.07] disponibilidades do professor
+[01.01.07.07.01] incluir disponibilidades do professor
+[01.01.07.07.02] excluir disponibilidades do professor
+[01.01.07.08] incluir professor
+[01.01.07.09] excluir professor
+[01.01.07.10] editar professor
+[01.01.07.11] ocorrência do professor
+[01.01.07.11.01] incluir ocorrência do professor
+[01.01.07.11.02] excluir ocorrência do professor
+[01.01.07.11.03] editar ocorrência do professor
+[01.01.07.12] atividade extra do professor
+[01.01.07.12.01] incluir atividade extra do professor
+[01.01.07.12.02] excluir atividade extra do professor
+[01.01.07.12.03] editar atividade extra do professor
+[01.01.07.13] alterar a senha do usuário
+[01.01.07.14] disciplinas autorizadas do professor
+[01.01.07.14.01] incluir disciplinas autorizadas do professor
+[01.01.07.14.02] excluir disciplinas autorizadas do professor
+[01.01.07.14.03] editar disciplinas autorizadas do professor
+[01.01.07.15] geração de usuários (professores)
+[01.01.07.16] controle de alteração de registros
+[01.01.07.16.01] editar dados aprovados
+[01.01.07.17] turmas do professor
+[01.01.07.18] resilição da atividade extra do professor
+[01.01.07.18.01] incluir resilição da atividade extra do professor
+[01.01.07.18.02] excluir resilição da atividade extra do professor
+[01.01.07.18.03] editar resilição da atividade extra do professor
+[01.01.07.19] envio de e-mail
+[01.01.07.20] currículo lattes
+[01.01.07.21] visualizar informações do professor sem restrição por webservice
+[01.02] estrutura curricular
+[01.02.01] cursos
+[01.02.01.01] incluir curso
+[01.02.01.02] excluir curso
+[01.02.01.03] editar curso
+[01.02.01.04] habilitações
+[01.02.01.04.01] incluir habilitação
+[01.02.01.04.02] excluir habilitação
+[01.02.01.04.03] editar habilitação
+[01.02.01.04.04] habilitações relacionadas
+[01.02.01.04.04.01] incluir habilitação relacionada
+[01.02.01.04.04.02] excluir habilitação relacionada
+[01.02.01.04.04.03] editar habilitação relacionada
+[01.02.01.04.05] parâmetros da habilitação por filial
+[01.02.01.04.05.01] incluir parâmetros da habilitação por filial
+[01.02.01.04.05.02] excluir parâmetros da habilitação por filial
+[01.02.02] matrizes curriculares
+[01.02.02.01] incluir matriz curricular
+[01.02.02.02] excluir matriz curricular
+[01.02.02.03] matriz curricular
+[01.02.02.04] períodos
+[01.02.02.04.01] incluir período
+[01.02.02.04.02] excluir período
+[01.02.02.04.03] editar período
+[01.02.02.05] disciplinas optativas
+[01.02.02.05.01] incluir disciplina optativa
+[01.02.02.05.02] excluir disciplina optativa
+[01.02.02.05.03] editar disciplina optativa
+[01.02.02.05.04] habilidades
+[01.02.02.05.04.01] incluir habilidade
+[01.02.02.05.04.02] excluir habilidade
+[01.02.02.06] matrizes aplicadas
+[01.02.02.06.01] incluir matriz aplicada
+[01.02.02.06.02] excluir matriz aplicada
+[01.02.02.06.03] editar matriz aplicada
+[01.02.02.06.04] componentes da matriz aplicada
+[01.02.02.06.04.01] incluir componente
+[01.02.02.06.04.02] excluir componente
+[01.02.02.06.04.03] editar componente
+[01.02.02.06.04.04] itens curriculares
+[01.02.02.06.04.04.01] incluir item curricular
+[01.02.02.06.04.04.02] excluir item curricular
+[01.02.02.06.04.04.03] editar item curricular
+[01.02.02.06.05] comissão coordenadora
+[01.02.02.06.05.01] incluir comissão coordenadora
+[01.02.02.06.05.02] excluir comissão coordenadora
+[01.02.02.06.05.03] editar comissão coordenadora
+[01.02.02.06.06] campus da matriz aplicada
+[01.02.02.06.06.01] incluir campus da matriz aplicada
+[01.02.02.06.06.02] excluir campus da matriz aplicada
+[01.02.02.06.06.03] editar campus da matriz aplicada
+[01.02.02.06.06.04] desconto por antecipação por campus/polo da matriz aplicada
+[01.02.02.06.06.04.01] incluir desconto por antecipação
+[01.02.02.06.06.04.02] excluir desconto por antecipação
+[01.02.02.06.06.04.03] editar desconto por antecipação
+[01.02.02.06.07] sincronizar créditos financeiros
+[01.02.02.06.08] documentos exigidos
+[01.02.02.06.08.01] incluir documento
+[01.02.02.06.08.02] excluir documento
+[01.02.02.06.08.03] editar documento
+[01.02.02.06.09] desconto por antecipação por matriz aplicada
+[01.02.02.06.09.01] incluir desconto por antecipação
+[01.02.02.06.09.02] excluir desconto por antecipação
+[01.02.02.06.09.03] editar desconto por antecipação
+[01.02.02.06.10] autorização do curso
+[01.02.02.06.10.01] incluir autorização do curso
+[01.02.02.06.10.02] excluir autorização do curso
+[01.02.02.06.10.03] editar autorização do curso
+[01.02.02.07] disciplinas
+[01.02.02.07.01] incluir disciplina
+[01.02.02.07.02] excluir disciplina
+[01.02.02.07.03] editar disciplina
+[01.02.02.07.04] requisitos
+[01.02.02.07.04.01] incluir requisito
+[01.02.02.07.04.02] excluir requisito
+[01.02.02.07.04.03] editar requisito
+[01.02.02.07.05] disciplinas filhas
+[01.02.02.07.05.01] incluir disciplina filha
+[01.02.02.07.05.02] excluir disciplina filha
+[01.02.02.07.05.03] editar disciplina filha
+[01.02.02.07.06] associa grupo de complemento às disciplinas
+[01.02.02.07.07] copiar complemento de disciplinas entre períodos letivos
+[01.02.02.07.08] log complemento da disciplina
+[01.02.02.07.09] habilidades
+[01.02.02.07.09.01] incluir habilidade
+[01.02.02.07.09.02] excluir habilidade
+[01.02.02.08] assistente de cadastro de matriz aplicada
+[01.02.02.09] asistente para atualizar número e valor de créditos das disciplinas
+[01.02.02.10] integração protheus
+[01.02.02.11] grupo de disciplinas optativas / eletivas
+[01.02.02.11.01] incluir grupo de disciplinas optativas / eletivas
+[01.02.02.11.02] excluir grupo de disciplinas optativas / eletivas
+[01.02.02.11.03] editar grupo de disciplinas optativas / eletivas
+[01.02.02.11.04] disciplinas do grupo de optativas / eletivas
+[01.02.02.11.04.01] incluir disciplina do grupo de optativas / eletivas
+[01.02.02.11.04.02] excluir disciplina do grupo de optativas / eletivas
+[01.02.02.11.04.03] editar disciplina do grupo de optativas / eletivas
+[01.02.02.12] equivalência de disciplina
+[01.02.02.12.01] incluir equivalência de disciplina
+[01.02.02.12.02] excluir equivalência de disciplina
+[01.02.02.13] matricular alunos em disciplinas incluídas na matriz curricular
+[01.02.02.14] assistente para criação de disciplinas no período letivo
+[01.02.02.15] associação de matrizes aplicadas à campus/polo
+[01.02.02.16] associar descontos por antecipação para matrizes aplicadas ou campus/polos das matrizes aplicadas
+[01.02.02.17] copiar matriz curricular
+[01.02.02.18] itinerário formativo da grade
+[01.02.02.18.01] incluir itinerário formativo da grade
+[01.02.02.18.02] excluir itinerário formativo da grade
+[01.02.02.18.03] editar itinerário formativo da grade
+[01.02.03] estrutura curricular
+[01.02.04] disciplinas
+[01.02.04.01] incluir disciplina
+[01.02.04.02] excluir disciplina
+[01.02.04.03] editar disciplina
+[01.02.04.04] complementos da disciplina
+[01.02.04.04.01] incluir complemento da disciplina
+[01.02.04.04.02] excluir complemento da disciplina
+[01.02.04.04.03] editar complemento da disciplina
+[01.02.04.05] associa grupo de complemento às disciplinas
+[01.02.04.06] copia complemento disciplina entre períodos letivos
+[01.02.04.07] atualiza professores responsáveis pela disciplina
+[01.02.04.08] log complemento da disciplina
+[01.02.04.09] vínculo de publicação do complemento de disciplina
+[01.02.04.10] processo de vínculo de publicação do complemento de disciplina
+[01.02.05] mais...
+[01.02.05.01] grupos de disciplinas
+[01.02.05.01.01] incluir grupo de disciplinas
+[01.02.05.01.02] excluir grupo de disciplinas
+[01.02.05.01.03] editar grupo de disciplinas
+[01.02.05.02] equivalências
+[01.02.05.02.01] incluir equivalência de disciplina
+[01.02.05.02.02] excluir equivalência de disciplinas
+[01.02.05.02.03] editar equivalência de disciplnias
+[01.02.05.03] grupo de complemento
+[01.02.05.03.01] incluir grupo de complemento de disciplina
+[01.02.05.03.02] excluir tipo de complemento de disciplina
+[01.02.05.03.03] alterar tipo de complemento de disciplina
+[01.02.05.03.04] associar tipo de complemento ao grupo de complemento
+[01.02.05.03.04.01] incluir tipo complemento ao grupo
+[01.02.05.03.04.02] excluir tipo complemento ao grupo
+[01.02.05.03.04.03] alterar tipo complemento ao grupo
+[01.02.05.04] tipos de complemento de disciplina
+[01.02.05.04.01] incluir tipo de complemento de disciplina
+[01.02.05.04.02] excluir tipo de complemento de disciplina
+[01.02.05.04.03] editar tipo de complemento de disciplina
+[01.02.05.05] modalidades de cursos
+[01.02.05.05.01] incluir modalidade de curso
+[01.02.05.05.02] excluir modalidade de curso
+[01.02.05.05.03] editar modalidade de curso
+[01.02.05.06] componentes curriculares
+[01.02.05.06.01] incluir componentecurricular
+[01.02.05.06.02] excluir componentecurricular
+[01.02.05.06.03] editar componentecurricular
+[01.02.05.06.04] modalidades
+[01.02.05.06.04.01] incluir modalidade
+[01.02.05.06.04.02] excluir modalidade
+[01.02.05.06.04.03] editar modalidade
+[01.02.05.07] assistente para cadastro de equivalência de alunos
+[01.02.05.08] assistente para cópia da matriz para o currículo individual
+[01.02.05.09] log de movimentações do coordenador
+[01.02.05.10] geração de usuários para coordenadores
+[01.02.05.11] assistente para associação de matrizes aplicadas à campus/polo
+[01.02.05.12] área do conhecimento
+[01.02.05.12.01] incluir área do conhecimento
+[01.02.05.12.02] excluir área do conhecimento
+[01.02.05.12.03] editar área do conhecimento
+[01.02.05.13] competências e habilidades
+[01.02.05.13.01] incluir competência
+[01.02.05.13.02] excluir competência
+[01.02.05.13.03] editar competência
+[01.02.05.13.04] habilidades
+[01.02.05.13.04.01] incluir habilidade
+[01.02.05.13.04.02] excluir habilidade
+[01.02.05.13.04.03] editar habilidade
+[01.02.05.14] itinerário formativo
+[01.02.05.14.01] incluir itinerário formativo
+[01.02.05.14.02] excluir itinerário formativo
+[01.02.05.14.03] editar itinerário formativo
+[01.02.05.14.04] disciplina do itinerário formativo
+[01.02.05.14.04.01] incluir disciplina do itinerário formativo
+[01.02.05.14.04.02] excluir disciplina do itinerário formativo
+[01.02.05.14.04.03] editar disciplina do itinerário formativo
+[01.02.05.14.04.04] habilidades
+[01.02.05.14.04.04.01] incluir habilidade
+[01.02.05.14.04.04.02] excluir habilidade
+[01.02.05.14.04.05] complemento da disciplina
+[01.02.05.14.04.05.01] incluir complemento da disciplina
+[01.02.05.14.04.05.02] excluir complemento da disciplina
+[01.02.05.14.04.05.03] editar complemento da disciplina
+[01.02.05.14.04.06] log do complemento da disciplina
+[01.02.05.14.04.07] comparar log do complemento da disciplina
+[01.02.05.14.04.08] associar grupo de complemento às disciplinas
+[01.02.05.14.04.09] copiar complemento de disciplina do itinerário formativo entre períodos letivos
+[01.02.05.14.05] área do conhecimento da disciplina do itinerário
+[01.02.05.14.05.01] incluir área do conhecimento da disciplina do itinerário
+[01.02.05.14.05.02] excluir área do conhecimento da disciplina do itinerário
+[01.02.05.14.05.03] editar área do conhecimento da disciplina do itinerário
+[01.02.05.15] associar habilidades às disciplinas
+[01.03] oferta
+[01.03.01] períodos letivos
+[01.03.01.01] incluir período letivo
+[01.03.01.02] excluir período letivo
+[01.03.01.03] editar período letivo
+[01.03.01.04] bolsas por período letivo
+[01.03.01.04.01] incluir bolsa por período letivo
+[01.03.01.04.02] excluir bolsa por período letivo
+[01.03.01.04.03] editar bolsa por período letivo
+[01.03.01.05] modelo de etapas por período letivo
+[01.03.01.05.01] incluir modelo de etapas por período letivo
+[01.03.01.05.02] excluir modelo de etapas por período letivo
+[01.03.01.05.03] alterar modelo de etapas por período letivo
+[01.03.01.06] modelo de avaliações por período letivo
+[01.03.01.06.01] incluir modelo de avaliações por período letivo
+[01.03.01.06.02] excluir modelo de avaliações por período letivo
+[01.03.01.06.03] editar modelo de avaliações por período letivo
+[01.03.01.07] copiar bolsas entre períodos letivos
+[01.03.01.08] copiar modelo de etapas para outro período letivo
+[01.03.01.09] atualizar etapas de turma/disciplinas
+[01.03.01.10] parametrização por curso em lote
+[01.03.02] parametrização por curso
+[01.03.02.01] incluir parametrização por curso
+[01.03.02.02] excluir parametrização por curso
+[01.03.02.03] editar parametrização por curso
+[01.03.02.04] documentos exigidos do aluno
+[01.03.02.04.01] incluir documentos exigidos do aluno
+[01.03.02.04.02] excluir documentos exigidos do aluno
+[01.03.02.04.03] editar documentos exigidos do aluno
+[01.03.02.05] documentos exigidos do fiador
+[01.03.02.05.01] incluir documentos exigidos do fiador
+[01.03.02.05.02] excluir documentos exigidos do fiador
+[01.03.02.05.03] editar documentos exigidos do fiador
+[01.03.02.06] modelo de etapas da matriz aplicada
+[01.03.02.06.01] incluir modelo de etapas da matriz aplicada
+[01.03.02.06.02] excluir modelo de etapas da matriz aplicada
+[01.03.02.06.03] editar modelo de etapas da matriz aplicada
+[01.03.02.07] modelo de avaliações por curso
+[01.03.02.07.01] incluir modelo de avaliações por curso
+[01.03.02.07.02] excluir modelo de avaliações por curso
+[01.03.02.07.03] editar modelo de avaliações por curso
+[01.03.02.08] associar documentos exigidos à matriz aplicada
+[01.03.02.09] atualiza parametrização por curso
+[01.03.02.10] atualizar etapas de turma/disciplinas
+[01.03.02.11] copiar modelo de etapas para outro período letivo
+[01.03.02.12] copiar matriz aplicada para outro período letivo
+[01.03.02.13] parametrização por coeficiente de rendimento
+[01.03.02.13.01] inserir parametrização por coeficiente de rendimento
+[01.03.02.13.02] excluir parametrização por coeficiente de rendimento
+[01.03.02.13.03] editar parametrização por coeficiente de rendimento
+[01.03.02.14] planos de pagamento por período da matriz
+[01.03.02.14.01] incluir plano de pagamento por período
+[01.03.02.14.02] excluir plano de pagamento por período
+[01.03.02.15] disponibilidade do itinerário formativo
+[01.03.02.15.01] inserir disponibilidade do itinerário
+[01.03.02.15.02] excluir disponibilidade do itinerário
+[01.03.02.15.03] editar disponibilidade do itinerário
+[01.03.02.16] agrupamento de itinerários formativos
+[01.03.02.16.01] inserir agrupamento de itinerários formativos
+[01.03.02.16.02] excluir agrupamento de itinerários formativos
+[01.03.02.16.03] editar agrupamento de itinerários formativos
+[01.03.02.16.04] itinerários formativos do agrupamento
+[01.03.02.16.04.01] inserir itinerário formativo do agrupamento
+[01.03.02.16.04.02] excluir itinerário formativo do agrupamento
+[01.03.02.16.04.03] editar itinerário formativo do agrupamento
+[01.03.03] estrutura oferta
+[01.03.04] turmas
+[01.03.04.01] incluir turma
+[01.03.04.02] excluir turma
+[01.03.04.03] editar turma
+[01.03.04.04] gerar número de alunos labore
+[01.03.04.05] gerar plano aula sequencial
+[01.03.04.06] cadastrar turmas / disciplinas
+[01.03.04.07] copiar turmas entre períodos letivos
+[01.03.04.08] atualizar campos da turma
+[01.03.05] turmas/disciplinas
+[01.03.05.01] incluir turma / disciplina
+[01.03.05.02] excluir turma / disciplina
+[01.03.05.03] editar turma / disciplina
+[01.03.05.04] professores da turma/disciplina
+[01.03.05.04.01] incluir professor da turma / disciplina
+[01.03.05.04.02] excluir professor da turma / disciplina
+[01.03.05.04.03] editar professor da turma / disciplina
+[01.03.05.05] etapas / fórmulas
+[01.03.05.05.01] incluir etapa / fórmula
+[01.03.05.05.02] excluir etapa / fórmula
+[01.03.05.05.03] editar etapa / fórmula
+[01.03.05.06] horários da turma / disciplina
+[01.03.05.06.01] incluir horário da turma / disciplina
+[01.03.05.06.02] excluir horário da turma / disciplina
+[01.03.05.06.03] editar horário da turma / disciplina
+[01.03.05.06.04] professores do horário
+[01.03.05.06.04.01] incluir professor do horário
+[01.03.05.06.04.02] excluir professor do horário
+[01.03.05.06.04.03] editar professor do horário
+[01.03.05.07] avaliações
+[01.03.05.07.01] incluir avaliação
+[01.03.05.07.02] excluir avaliação
+[01.03.05.07.03] editar avaliação
+[01.03.05.07.04] avaliações descritivas
+[01.03.05.07.04.01] excluir avaliações descritivas
+[01.03.05.08] subturmas
+[01.03.05.08.01] incluir subturma
+[01.03.05.08.02] excluir subturma
+[01.03.05.08.03] editar subturma
+[01.03.05.08.04] horários da subturma
+[01.03.05.08.04.01] incluir horário da subturma
+[01.03.05.08.04.02] excluir horário da subturma
+[01.03.05.08.04.03] editar horário da subturma
+[01.03.05.08.05] subturmas da avaliação
+[01.03.05.08.05.01] copiar avaliações para outras turmas/disciplinas
+[01.03.05.08.05.02] incluir subturmas da avaliação
+[01.03.05.08.05.03] excluir subturmas da avaliação
+[01.03.05.08.05.04] editar subturmas da avaliação
+[01.03.05.09] planos de aula
+[01.03.05.09.01] incluir plano de aula
+[01.03.05.09.02] excluir plano de aula
+[01.03.05.09.03] editar plano de aula
+[01.03.05.09.04] ordernar plano de aula
+[01.03.05.10] associar prova do avaliação e pesquisa aos alunos
+[01.03.05.11] associar prova do avaliação e pesquisa às avaliações
+[01.03.05.12] geração de horário
+[01.03.05.13] turma/disciplina gerenciada
+[01.03.05.13.01] incluir turma/disciplina gerenciada
+[01.03.05.13.02] excluir turma/disciplina gerenciada
+[01.03.05.13.03] editar turma/disciplina gerenciada
+[01.03.05.14] atualizar período de matrícula
+[01.03.05.15] alteração global professor turma/disciplina
+[01.03.05.16] associar professor aos horários da turma/disciplina
+[01.03.05.17] objeto avaliado
+[01.03.05.17.01] excluir objeto avaliado
+[01.03.05.18] resilição dos professores da turma/disciplina
+[01.03.05.18.01] incluir resilição dos professores da turma/disciplina
+[01.03.05.18.02] excluir resilição dos professores da turma/disciplina
+[01.03.05.18.03] editar resilição dos professores da turma/disciplina
+[01.03.05.19] associar agenda a turma / disciplina
+[01.03.05.20] atualização do link da aula online no portal
+[01.03.05.21] liberar frequência diária
+[01.03.06] mais...
+[01.03.06.01] planejamento
+[01.03.06.02] montagem do quadro de horário
+[01.03.06.03] gerenciamento de aula
+[01.03.06.04] visualização de avaliações
+[01.03.06.05] visualização de etapas
+[01.04] acadêmico
+[01.04.01] situação de matrícula
+[01.04.01.01] incluir situação de matrícula
+[01.04.01.02] excluir situação de matrícula
+[01.04.01.03] editar situação de matrícula
+[01.04.02] turnos e horários
+[01.04.02.01] incluir turno
+[01.04.02.02] excluir turno
+[01.04.02.03] editar turno
+[01.04.02.04] horários
+[01.04.02.04.01] incluir horário
+[01.04.02.04.02] excluir horário
+[01.04.02.04.03] editar horário
+[01.04.02.04.04] agrupamento de horário (urânia)
+[01.04.02.04.04.01] incluir agrupamento de horário (urânia)
+[01.04.02.04.04.02] excluir agrupamento de horário (urânia)
+[01.04.02.04.04.03] editar agrupamento de horário (urânia)
+[01.04.03] histórico
+[01.04.03.01] cursos do histórico
+[01.04.03.01.01] incluir cursohistórico
+[01.04.03.01.02] excluir cursohistórico
+[01.04.03.01.03] editar cursohistórico
+[01.04.03.01.04] séries do histórico
+[01.04.03.01.04.01] incluir série do histórico
+[01.04.03.01.04.02] excluir série do histórico
+[01.04.03.01.04.03] editar série do histórico
+[01.04.03.02] grupos de séries
+[01.04.03.02.01] incluir grupo de séries
+[01.04.03.02.02] excluir grupo de séries
+[01.04.03.02.03] editar grupo de séries
+[01.04.03.03] disciplinas do histórico
+[01.04.03.03.01] incluir disciplina
+[01.04.03.03.02] excluir disciplina
+[01.04.03.03.03] editar disciplina
+[01.04.03.04] partes do histórico
+[01.04.03.04.01] incluir parte do histórico
+[01.04.03.04.02] excluir parte do histórico
+[01.04.03.04.03] editar parte do histórico
+[01.04.03.05] itinerário formativo do histórico
+[01.04.03.05.01] incluir itinerário formativo do histórico
+[01.04.03.05.02] excluir itinerário formativo do histórico
+[01.04.03.05.03] editar itinerário formativo do histórico
+[01.04.03.06] área do conhecimento do histórico
+[01.04.03.06.01] incluir área do conhecimento do histórico
+[01.04.03.06.02] excluir área do conhecimento do histórico
+[01.04.03.06.03] editar área do conhecimento do histórico
+[01.04.10] auxiliares
+[01.04.10.01] tipos de aluno
+[01.04.10.01.01] incluir tipo de aluno
+[01.04.10.01.02] excluir tipo de aluno
+[01.04.10.01.03] editar tipo de aluno
+[01.04.10.02] tipos de matrícula
+[01.04.10.02.01] incluir tipo de matrícula
+[01.04.10.02.02] excluir tipo de matrícula
+[01.04.10.02.03] editar tipo de matrícula
+[01.04.10.03] motivo de alteração de matrícula
+[01.04.10.03.01] incluir motivo de alteração de matrícula
+[01.04.10.03.02] excluir motivo de alteração de matrícula
+[01.04.10.03.03] editar motivo de alteração de matrícula
+[01.04.10.04] motivo de rejeição do documento
+[01.04.10.04.01] incluir motivo de rejeição do documento
+[01.04.10.04.02] excluir motivo de rejeição do documento
+[01.04.10.04.03] editar motivo de rejeição do documento
+[01.04.10.05] documentos
+[01.04.10.05.01] incluir documento
+[01.04.10.05.02] excluir documento
+[01.04.10.05.03] editardocumento
+[01.04.10.06] tipos de responsáveis do aluno
+[01.04.10.06.01] incluir tipo de responsável do aluno
+[01.04.10.06.02] excluir tipo de responsável do aluno
+[01.04.10.06.03] editar tipo de responsável do aluno
+[01.04.10.07] grau
+[01.04.10.07.01] incluir grau institucional
+[01.04.10.07.02] excluir grau institucional
+[01.04.10.07.03] editar grau institucional
+[01.04.10.08] deficiências
+[01.04.10.08.01] inlcuir deficiências
+[01.04.10.08.02] excluir deficiências
+[01.04.10.08.03] editar deficiências
+[01.04.10.09] tipos de ingresso
+[01.04.10.09.01] incluir tipo de ingresso
+[01.04.10.09.02] excluir tipo de ingresso
+[01.04.10.09.03] editar tipo de ingresso
+[01.04.10.10] provas de processo seletivo
+[01.04.10.10.01] incluir prova de vestibular
+[01.04.10.10.02] excluir prova de vestibular
+[01.04.10.10.03] editar prova de vestibular
+[01.04.10.11] instituições de ensino
+[01.04.10.11.01] incluir instituição de ensino
+[01.04.10.11.02] excluir instituição de ensino
+[01.04.10.11.03] editar instituição de ensino
+[01.04.10.11.04] autorização da instituição
+[01.04.10.11.04.01] incluir autorização da instituição
+[01.04.10.11.04.02] excluir autorização da instituição
+[01.04.10.11.04.03] editar autorização da instituição
+[01.04.10.13] campus/polo
+[01.04.10.13.01] incluir campus
+[01.04.10.13.02] excluir campus
+[01.04.10.13.03] editar campus
+[01.04.10.13.04] responsável campus/polo
+[01.04.10.13.04.01] incluir responsável campus/polo
+[01.04.10.13.04.02] excluir responsável campus/polo
+[01.04.10.13.04.03] editar responsável campus/polo
+[01.04.10.14] tipos de sala
+[01.04.10.14.01] incluir tipo de sala
+[01.04.10.14.02] excluir tipo de sala
+[01.04.10.14.03] editar tipo de sala
+[01.04.10.15] prédios/blocos/salas
+[01.04.10.15.01] incluir prédio
+[01.04.10.15.02] excluir prédio
+[01.04.10.15.03] editar prédio
+[01.04.10.15.04] salas
+[01.04.10.15.04.01] incluir sala
+[01.04.10.15.04.02] excluir sala
+[01.04.10.15.04.03] editar sala
+[01.04.10.15.04.04] associar salas com localidades do totvs gestão patrimonial
+[01.04.10.16] tipo de recursos
+[01.04.10.16.01] incluir tipo de recurso
+[01.04.10.16.02] excluir tipo de recurso
+[01.04.10.16.03] editar tipo de recurso
+[01.04.10.17] recursos
+[01.04.10.17.01] incluir recurso
+[01.04.10.17.02] excluir recurso
+[01.04.10.17.03] editar recurso
+[01.04.10.18] grupos de ocorrências
+[01.04.10.18.01] incluir grupo de ocorrência
+[01.04.10.18.02] excluir grupo de ocorrência
+[01.04.10.18.03] editar grupo de ocorrência
+[01.04.10.18.04] tipos de ocorrência
+[01.04.10.18.04.01] incluir tipo de ocorrência
+[01.04.10.18.04.02] excluir tipo de ocorrência
+[01.04.10.18.04.03] editar tipo de ocorrência
+[01.04.10.19] grupos de conceitos
+[01.04.10.19.01] incluir grupo de conceito
+[01.04.10.19.02] excluir grupo de conceito
+[01.04.10.19.03] editar grupo de conceito
+[01.04.10.20] áreas
+[01.04.10.20.01] incluir área
+[01.04.10.20.02] excluir área
+[01.04.10.20.03] editar área
+[01.04.10.20.04] carreiras
+[01.04.10.20.04.01] incluir carreira
+[01.04.10.20.04.02] excluir carreira
+[01.04.10.20.04.03] editar carreira
+[01.04.10.21] eixo tecnológico
+[01.04.10.21.01] incluir eixo tecnológico
+[01.04.10.21.02] excluir eixo tecnológico
+[01.04.10.21.03] editar eixo tecnológico
+[01.04.10.22] idiomas
+[01.04.10.22.01] incluir idiomas
+[01.04.10.22.02] excluir idiomas
+[01.04.10.22.03] editar idiomas
+[01.04.10.23] profissões
+[01.04.10.23.01] incluir profissão
+[01.04.10.23.02] excluir profissão
+[01.04.10.23.03] editar profissão
+[01.04.10.24] ocupações
+[01.04.10.24.01] incluir ocupação
+[01.04.10.24.02] excluir ocupação
+[01.04.10.24.03] editar ocupação
+[01.04.10.25] relação de cadastro
+[01.04.10.25.01] entre contextos (origem e destino)
+[01.04.10.25.02] formas de inscrição x tipo ingresso
+[01.04.10.28] regiões
+[01.04.10.28.01] incluir região
+[01.04.10.28.02] excluir região
+[01.04.10.28.03] editar região
+[01.04.10.29] escolas
+[01.04.10.29.01] incluir escolas
+[01.04.10.29.02] excluir escolas
+[01.04.10.29.03] editar escolas
+[01.04.10.29.04] diretores
+[01.04.10.29.04.01] incluir diretor
+[01.04.10.29.04.02] excluir diretor
+[01.04.10.29.04.03] editar diretor
+[01.04.10.30] projetos
+[01.04.10.30.01] incluir projetos
+[01.04.10.30.02] excluir projetos
+[01.04.10.30.03] editar projetos
+[01.04.10.31] justificativas de falta
+[01.04.10.31.01] incluir justificativas de falta
+[01.04.10.31.02] excluir justificativas de falta
+[01.04.10.31.03] editar justificativas de falta
+[01.04.10.32] portais
+[01.04.10.32.01] banner
+[01.04.10.32.01.01] incluir banner
+[01.04.10.32.01.02] excluir banner
+[01.04.10.32.01.03] editar banner
+[01.04.10.32.02] widgets: configuração
+[02] matrícula e avaliação
+[02.01] matrícula
+[02.01.01] matrículas
+[02.01.01.01] matrículas no curso
+[02.01.01.02] enviar documento para assinatura
+[02.01.01.03] excluir matrícula no período letivo
+[02.01.01.04] editar matrícula no período letivo
+[02.01.01.05] matricular aluno
+[02.01.01.06] matrícula em disciplinas
+[02.01.01.06.01] excluir matrícula em disciplina
+[02.01.01.06.02] editar matrícula em disciplina
+[02.01.01.06.03] alterar situação de matrícula na disciplina
+[02.01.01.06.04] matrícula em turma mista
+[02.01.01.06.05] histórico de alteração de matrículas
+[02.01.01.07] matricular aluno em disciplinas
+[02.01.01.08] alterar situação de matrícula no período letivo
+[02.01.01.09] confirmação de matrícula por pagamento
+[02.01.01.10] mudança de turma
+[02.01.01.11] atualização de campos do enade
+[02.01.01.12] retirar disciplinas com pré-requisito não concluído
+[02.01.01.13] histórico de alteração de matrículas período letivo
+[02.01.01.14] atualiza dados do censo e sistec
+[02.01.01.15] adicionar disciplinas na matrícula em disciplinas
+[02.01.01.16] altera datas de matrícula para efeitos do educacenso
+[02.01.01.17] matrícula em itinerário formativo
+[02.01.01.17.01] incluir matrícula em itinerário formativo
+[02.01.01.17.02] excluir matrícula em itinerário formativo
+[02.01.01.17.03] editar matrícula em itinerário formativo
+[02.01.01.17.04] matrículas em disciplinas do itinerário formativo
+[02.01.04] enturmação
+[02.01.05] numeração
+[02.01.06] matrícula isolada
+[02.01.06.01] incluir matrícula isolada
+[02.01.06.02] deletar matrícula isolada
+[02.01.06.03] editar matrícula isolada
+[02.01.07] rematrícula
+[02.01.08] mudança de turma em lote
+[02.01.09] processo seletivo (rm)
+[02.01.09.01] matricular
+[02.01.09.02] matricular em lote
+[02.01.09.03] desmatricular
+[02.01.13] mais...
+[02.01.13.01] disciplinas em curso
+[02.01.13.02] enturmação em turma mista
+[02.01.13.03] matrícula por prioridade
+[02.01.13.04] matrícula por lista de espera
+[02.01.13.05] exclusão de lista de espera
+[02.01.13.06] processo seletivo terceirizado
+[02.01.13.06.01] incluir processo seletivo terceirizado
+[02.01.13.06.02] excluir processo seletivo terceirizado
+[02.01.13.06.03] editar processo seletivo terceirizado
+[02.01.13.06.04] matrícula de processo seletivo terceirizado
+[02.01.13.06.05] cancelamento de matrícula de processo seletivo terceirizado
+[02.01.13.06.06] importação de arquivo de processo seletivo terceirizado
+[02.01.13.07] confirmação de matrícula
+[02.01.13.08] matrícula de disciplinas em lote
+[02.01.13.09] matrícula em lote no itinerário formativo
+[02.01.13.10] análise de integralização dos alunos
+[02.02] notas e faltas
+[02.02.01] notas e faltas de etapa
+[02.02.01.01] liberar etapa
+[02.02.02] notas de avaliação
+[02.02.02.01] liberar avaliação
+[02.02.03] frequência diária
+[02.02.03.01] permitir justificar faltas
+[02.02.04] avaliação descritiva
+[02.02.05] mais...
+[02.02.05.01] digitação por aluno
+[02.02.05.01.01] notas e faltas de etapas
+[02.02.05.01.02] notas de avaliação
+[02.02.05.04] liberação de avaliações
+[02.02.05.05] digitação de faltas por dia
+[02.02.05.06] relatório fixo
+[02.02.05.06.01] notas por etapa
+[02.02.05.06.02] notas por avaliação
+[02.02.05.09] abono de ausência
+[02.02.05.10] processador de frequência diária
+[02.03] rotinas periódicas
+[02.03.01] gabaritos
+[02.03.01.01] configuração
+[02.03.01.01.01] incluir gabarito
+[02.03.01.01.02] excluir gabarito
+[02.03.01.01.03] editar gabarito
+[02.03.01.01.04] respostas do gabarito
+[02.03.01.01.04.01] incluir resposta do gabarito
+[02.03.01.01.04.02] excluir resposta do gabarito
+[02.03.01.01.04.03] editar resposta do gabarito
+[02.03.01.01.04.04] valor da resposta do gabarito
+[02.03.01.01.04.04.01] incluir valor de resposta do gabarito
+[02.03.01.01.04.04.02] excluir valor de resposta do gabarito
+[02.03.01.01.04.04.03] editar valor de resposta do gabarito
+[02.03.01.01.04.05] associar disciplina
+[02.03.01.01.05] importar respostas do gabarito
+[02.03.01.02] importação
+[02.03.01.03] importação totvs educacional avaliação e pesquisa
+[02.03.05] geração do histórico
+[02.03.06] apuração de resultados
+[03] atividades acadêmicas
+[03.01] acadêmico
+[03.01.01] atividades ofertadas
+[03.01.01.01] inscrições
+[03.01.01.02] incluir atividade ofertada
+[03.01.01.03] excluir atividade ofertada
+[03.01.01.04] editar atividade ofertada
+[03.01.01.05] cursos / habilitações
+[03.01.01.05.01] incluir cursos / habilitações
+[03.01.01.05.02] excluir cursos / habilitações
+[03.01.01.05.03] editar cursos / habilitações
+[03.01.01.06] inscrição aluno na atividade
+[03.01.01.06.01] incluir aluno na atividade
+[03.01.01.06.02] excluir aluno na atividade
+[03.01.01.06.03] editar aluno na atividade
+[03.01.01.07] inscrição de professor na atividade
+[03.01.01.07.01] incluir professor na atividade
+[03.01.01.07.02] editar professor na atividade
+[03.01.01.07.03] excluir professor na atividade
+[03.01.01.08] inscrição de pessoa na atividade
+[03.01.01.08.01] incluir pessoa na atividade
+[03.01.01.08.02] excluir pessoa da atividade
+[03.01.01.08.03] editar pessoa da atividade
+[03.01.03] transferência interna
+[03.01.03.01] transferência interna
+[03.01.03.02] transferência interna entre coligadas
+[03.01.06] avaliação institucional
+[03.01.07] empresas
+[03.01.07.01] incluir empresa
+[03.01.07.02] excluir empresa
+[03.01.07.03] editar empresa
+[03.01.07.04] funcionários
+[03.01.07.04.01] incluir funcionário
+[03.01.07.04.02] excluir funcionário
+[03.01.07.04.03] editar funcionário
+[03.01.07.04.04] anonimizar funcionários
+[03.01.07.05] parametrização de vagas
+[03.01.07.05.01] incluir parametrização de vagas
+[03.01.07.05.02] excluir parametrização de vagas
+[03.01.07.05.03] editar parametrização de vagas
+[03.01.07.05.04] público alvo do convênio
+[03.01.07.05.04.01] incluir público alvo do convênio
+[03.01.07.05.04.02] excluir público alvo do convênio
+[03.01.07.05.04.03] editar público alvo do convênio
+[03.01.07.05.05] documentos do convênio
+[03.01.07.05.05.01] incluir documento do convênio
+[03.01.07.05.05.02] excluir documento do convênio
+[03.01.07.05.05.03] editar documento do convênio
+[03.01.07.06] geração de usuários (funcionário)
+[03.01.08] estágio
+[03.01.08.01] vagas
+[03.01.08.01.01] incluir vaga
+[03.01.08.01.02] excluir vaga
+[03.01.08.01.03] editar vaga
+[03.01.08.01.04] público alvo da vaga
+[03.01.08.01.04.01] incluir público alvo da vaga
+[03.01.08.01.04.02] excluir público alvo da vaga
+[03.01.08.01.04.03] editar público alvo da vaga
+[03.01.08.01.05] envio de e-mail para vagas expirando
+[03.01.08.01.06] inscrever candidatos a vaga
+[03.01.08.02] candidatos às vagas
+[03.01.08.02.01] incluir candidato à vaga
+[03.01.08.02.02] excluir candidato à vaga
+[03.01.08.02.03] editar candidato à vaga
+[03.01.08.02.04] matrículas que atendem ao público alvo
+[03.01.08.02.04.01] excluir matrículas que atendem ao público alvo
+[03.01.08.02.04.02] editar matrículas que atendem ao público alvo
+[03.01.08.03] solicitação de estágio
+[03.01.08.03.01] excluir solicitação de estágio
+[03.01.08.03.02] editar solicitação de estágio
+[03.01.08.03.03] funcionários da solicitação de estágio
+[03.01.08.03.03.01] inserir funcionários da solicitação de estágio
+[03.01.08.03.03.02] excluir funcionários da solicitação de estágio
+[03.01.08.03.03.03] editar funcionários da solicitação de estágio
+[03.01.08.04] termo de compromisso
+[03.01.08.04.01] incluir termo de compromisso
+[03.01.08.04.02] excluir termo de compromisso
+[03.01.08.04.03] editar termo de compromisso
+[03.01.08.04.04] apólices
+[03.01.08.04.04.01] incluir apólice
+[03.01.08.04.04.02] excluir apólice
+[03.01.08.04.04.03] editar apólice
+[03.01.08.04.05] documentos
+[03.01.08.04.05.01] incluir documentos
+[03.01.08.04.05.02] excluir documentos
+[03.01.08.04.05.03] editar documentos
+[03.01.08.04.06] histórico de alterações do termo de compromisso de estágio
+[03.01.08.04.07] avaliação final aluno
+[03.01.08.04.07.01] incluir avaliação final
+[03.01.08.04.07.02] excluir avaliação final
+[03.01.08.04.07.03] editar avaliação final
+[03.01.08.04.08] avaliação final empresa
+[03.01.08.04.08.01] incluir avaliação final
+[03.01.08.04.08.02] excluir avaliação final
+[03.01.08.04.08.03] editar avaliação final
+[03.01.08.04.09] banca
+[03.01.08.04.09.01] participantes da banca
+[03.01.08.04.09.01.01] inserir nota
+[03.01.08.04.09.01.02] incluir participantes da banca
+[03.01.08.04.09.01.03] excluir participantes da banca
+[03.01.08.04.09.01.04] editar participantes da banca
+[03.01.08.04.09.02] incluir banca
+[03.01.08.04.09.03] excluir banca
+[03.01.08.04.09.04] editar banca
+[03.01.08.05] plano de atividade
+[03.01.08.05.01] incluir plano de atividade do estágio
+[03.01.08.05.02] excluir plano de atividade do estágio
+[03.01.08.05.03] editar plano de atividade do estágio
+[03.01.08.05.04] etapas do plano de atividade
+[03.01.08.05.04.01] incluir etapa do plano de atividade
+[03.01.08.05.04.02] excluir etapa do plano de atividade
+[03.01.08.05.04.03] editar etapa do plano de atividade
+[03.01.14] trabalho de conclusão de curso (tcc)
+[03.01.14.01] professores/orientadores por período letivo
+[03.01.14.01.01] incluir configuração do professor no período letivo
+[03.01.14.01.02] excluir configuração do professor no período letivo
+[03.01.14.01.03] editar configuração do professor no período letivo
+[03.01.14.01.04] processo de cópia entre períodos letivos da configuração do professor
+[03.01.14.02] linhas de pesquisa
+[03.01.14.02.01] incluir linha de pesquisa
+[03.01.14.02.02] excluir linha de pesquisa
+[03.01.14.02.03] editar linha de pesquisa
+[03.01.14.02.04] matrizes aplicadas da linha de pesquisa
+[03.01.14.02.04.01] incluir matriz aplicada
+[03.01.14.02.04.02] excluir matriz aplicada
+[03.01.14.02.05] professores orientadores da linha de pesquisa
+[03.01.14.02.05.01] incluir professor orientador da linha de pesquisa
+[03.01.14.02.05.02] excluir professor orientador da linha de pesquisa
+[03.01.14.02.05.03] aprovar professor orientador da linha de pesquisa
+[03.01.14.02.06] processo de cópia das linhas de pesquisas dos professores entre períodos letivos
+[03.01.14.03] status do tcc
+[03.01.14.03.01] incluir status do tcc
+[03.01.14.03.02] excluir status do tcc
+[03.01.14.03.03] editar status do tcc
+[03.01.14.04] tipos de participantes da banca
+[03.01.14.04.01] incluir tipo de participante
+[03.01.14.04.02] excluir tipo de participante
+[03.01.14.04.03] editar tipo de participante
+[03.01.14.05] tipos de tcc
+[03.01.14.05.01] incluir tipo de tcc
+[03.01.14.05.02] excluir tipo de tcc
+[03.01.14.05.03] editar tipo de tcc
+[03.01.14.06] tcc
+[03.01.14.06.01] incluir tcc
+[03.01.14.06.02] excluir tcc
+[03.01.14.06.03] editar tcc
+[03.01.14.06.04] acompanhamento/reuniões
+[03.01.14.06.04.01] incluir acompanhamento
+[03.01.14.06.04.02] excluir acompanhamento
+[03.01.14.06.04.03] editar acompanhamento
+[03.01.14.06.04.04] arquivos anexos do aluno
+[03.01.14.06.04.04.01] incluir anexo
+[03.01.14.06.04.04.02] excluir anexo
+[03.01.14.06.04.04.03] editar anexo
+[03.01.14.06.04.05] arquivos anexos do professor
+[03.01.14.06.04.05.01] incluir anexo
+[03.01.14.06.04.05.02] excluir anexo
+[03.01.14.06.04.05.03] editar anexo
+[03.01.14.06.05] banca do tcc
+[03.01.14.06.05.01] incluir banca
+[03.01.14.06.05.02] excluir banca
+[03.01.14.06.05.03] editar banca
+[03.01.14.06.05.04] participantes da banca
+[03.01.14.06.05.04.01] incluir participantes
+[03.01.14.06.05.04.02] excluir participantes
+[03.01.14.06.05.04.03] editar participantes
+[03.01.14.06.05.04.04] inserir nota e arquivo de avaliação
+[03.01.14.06.06] orientadores do tcc
+[03.01.14.06.06.01] incluir orientador
+[03.01.14.06.06.02] excluir orientador
+[03.01.14.06.06.03] editar orientador
+[03.01.14.06.07] matrículas vinculadas ao tcc
+[03.01.14.06.07.01] incluir matrícula
+[03.01.14.06.07.02] excluir matrícula
+[03.01.14.06.07.03] editar matrícula
+[03.01.21] censo
+[03.01.21.01] instituição do mec
+[03.01.21.01.01] diretor da instituição
+[03.01.21.01.01.01] incluir diretor da instituição
+[03.01.21.01.01.02] excluir diretor da instituição
+[03.01.21.01.01.03] editar diretor da instituição
+[03.01.21.01.02] gestores da instituição
+[03.01.21.01.02.01] incluir gestor da instituição
+[03.01.21.01.02.02] excluir gestor da instituição
+[03.01.21.01.02.03] editar gestor da instituição
+[03.01.21.01.03] autorização da filial
+[03.01.21.01.03.01] incluir autorização da filial
+[03.01.21.01.03.02] excluir autorização da filial
+[03.01.21.01.03.03] editar autorização da filial
+[03.01.21.01.04] cursos mec da filial
+[03.01.21.01.04.01] inserir cursos mec da filial
+[03.01.21.01.04.02] excluir cursos mec da filial
+[03.01.21.01.04.03] editar cursos mec da filial
+[03.01.21.01.05] pesquisador institucional
+[03.01.21.01.05.01] incluir pesquisador institucional
+[03.01.21.01.05.02] excluir pesquisador institucional
+[03.01.21.01.05.03] editar pesquisador institucional
+[03.01.21.02] relação de cadastros do censo
+[03.01.21.03] turmas - dados do censo escolar
+[03.01.21.03.01] alteração em lote de turmas - dados do censo escolar
+[03.01.21.04] professores - dados do censo escolar
+[03.01.21.04.01] alteração em lote de professores - dados do censo escolar
+[03.01.21.05] turmas do professor - dados do censo escolar
+[03.01.21.05.01] alteração em lote de turmas do professor - dados do censo escolar
+[03.01.21.06] alunos - dados do censo escolar
+[03.01.21.06.01] alteração em lote de alunos - dados do censo escolar
+[03.01.21.07] matricula - dados do censo escolar
+[03.01.21.07.01] alteração em lote de matrículas - dados do censo escolar
+[03.01.21.08] preparação de dados do censo da educação superior
+[03.01.21.09] exportação da matrícula inicial - censo básico
+[03.01.21.10] importação de dados do censo da educação superior
+[03.01.21.11] exportação da situação do aluno - censo básico
+[03.02] central de comunicações
+[03.02.01] mensagens
+[03.02.01.01] incluir mensagens
+[03.02.01.02] excluir mensagens
+[03.02.01.03] editar mensagens
+[03.02.02] mala direta
+[03.02.03] agendamento/envio de mensagens
+[03.02.04] educonnect
+[03.02.04.01] categoria do educonnect
+[03.02.04.01.01] incluir categorias do educonnect
+[03.02.04.01.02] excluir categorias do educonnect
+[03.02.04.01.03] editar categorias do educonnect
+[03.02.04.02] banner
+[03.02.04.02.01] incluir banner no app
+[03.02.04.02.02] excluir banner do app
+[03.02.04.02.03] editar banner do app
+[03.02.04.02.04] replicar banner educonnect
+[03.02.04.03] log técnico de erros do educonnect
+[03.02.04.03.01] excluir log do educonnect
+[03.02.04.03.02] editar log do educonnect
+[03.02.04.04] gestão de mensagens
+[03.02.04.04.01] gestão de mensagem individual
+[03.02.04.04.02] gráfico
+[03.02.04.04.03] excluir mensagens do educonnect
+[03.02.04.05] painel de usuários/utilização
+[03.02.04.06] painel de acessos
+[03.02.04.07] importação de mensagens de notificação
+[03.02.04.08] agenda infantil
+[03.02.04.08.01] agenda
+[03.02.04.08.01.01] incluir agenda
+[03.02.04.08.01.02] excluir agenda
+[03.02.04.08.01.03] editar agenda
+[03.02.04.08.01.04] evento da agenda
+[03.02.04.08.01.04.01] incluir evento
+[03.02.04.08.01.04.02] excluir evento
+[03.02.04.08.01.04.03] editar evento
+[03.02.04.08.01.05] associar evento a agenda
+[03.02.04.08.02] evento
+[03.02.04.08.02.01] incluir evento
+[03.02.04.08.02.02] excluir evento
+[03.02.04.08.02.03] editar evento
+[03.02.04.08.02.04] parâmetro do evento
+[03.02.04.08.02.04.01] incluir parâmetro
+[03.02.04.08.02.04.02] excluir parâmetro
+[03.02.04.08.02.04.03] editar parâmetro
+[03.02.04.08.03] ação
+[03.02.04.08.03.01] incluir ação
+[03.02.04.08.03.02] excluir ação
+[03.02.04.08.03.03] editar ação
+[03.02.04.08.03.04] associar ação ao evento
+[03.02.13] contatos via chat (mensagens pessoais)
+[03.02.13.01] salas/assuntos para atendimento
+[03.02.13.01.01] incluir salas/assuntos para atendimento
+[03.02.13.01.02] excluir salas/assuntos para atendimento
+[03.02.13.01.03] editar salas/assuntos para atendimento
+[03.02.13.01.04] agentes de atendimento
+[03.02.13.01.04.01] incluir agentes de atendimento
+[03.02.13.01.04.02] excluir agentes de atendimento
+[03.02.13.01.04.03] editar agentes de atendimento
+[03.02.13.01.05] habilitações filiais da sala de atendimento
+[03.02.13.01.05.01] incluir habilitação filial à sala de atendimento
+[03.02.13.01.05.02] editar habilitação filial à sala de atendimento
+[03.02.13.01.05.03] excluir habilitação filial à sala de atendimento
+[03.02.13.01.06] associar matriz aplicada à sala de atendimento
+[03.02.13.02] mensagens padrões
+[03.02.13.02.01] incluir mensagens padrões
+[03.02.13.02.02] excluir mensagens padrões
+[03.02.13.02.03] editar mensagens padrões
+[03.03] infraestrutura
+[03.03.01] reserva de recurso e instalação
+[03.03.01.01] lista de espera de recurso
+[03.03.01.01.01] excluir registro lista de espera recurso
+[03.03.01.01.02] elimina lista de espera de recurso
+[03.03.01.02] lista de espera de instalação
+[03.03.01.02.01] excluir registro lista de espera instalação
+[03.03.01.02.02] elimina lista de espera de instalação
+[03.03.01.03] incluir reserva de instalação e recurso
+[03.03.01.04] excluir reserva de instalação e recurso
+[03.03.01.05] editar reserva de instalação e recurso
+[03.03.01.06] processo de reserva de instalação
+[03.03.01.07] reserva de instalação
+[03.03.01.07.01] cancelamento de reserva de instalação
+[03.03.01.07.02] processo de reserva de recursos
+[03.03.01.07.03] anexos da reserva de instalação
+[03.03.01.07.04] incluir anexos da reserva de instalação
+[03.03.01.07.05] excluir anexos da reserva de instalação
+[03.03.01.07.06] editar anexos da reserva de instalação
+[03.03.01.08] reserva de recursos
+[03.03.01.08.01] cancelamento de reserva de recurso
+[03.03.01.08.02] anexos da reserva de recurso
+[03.03.01.08.03] incluir anexos da reserva de recurso
+[03.03.01.08.04] excluir anexos da reserva de recurso
+[03.03.01.08.05] editar anexos da reserva de recurso
+[03.03.04] alocação de salas
+[03.03.04.01] prioridades
+[03.03.04.02] alocação manual
+[03.03.04.03] alocação automática
+[03.04] requerimentos
+[03.04.01] requerimentos
+[03.04.02] configurações
+[03.04.02.01] incluir configuração de solicitação
+[03.04.02.02] excluir configuração de solicitação
+[03.04.02.03] editar configuração de solicitação
+[03.05] certificado / diploma / solenidade
+[03.05.01] certificados/ diplomas
+[03.05.01.01] geração de certificados / diplomas / solenidades
+[03.05.01.02] incluir certificado / diploma
+[03.05.01.03] excluir certificado / diploma
+[03.05.01.04] editar certificado / diploma
+[03.05.01.05] atualização de situação de certificados
+[03.05.01.06] participantes
+[03.05.01.06.01] incluir participante
+[03.05.01.06.02] excluir participante
+[03.05.01.06.03] editar participante
+[03.05.01.07] atualização de dados do certificado
+[03.05.03] livro
+[03.05.03.01] incluir livro
+[03.05.03.02] excluir livro
+[03.05.03.03] editar livro
+[03.05.04] competência
+[03.05.04.01] incluir competência
+[03.05.04.02] excluir competência
+[03.05.04.03] editar competência
+[03.05.04.04] disciplinas da competência
+[03.05.04.04.01] incluir disciplina
+[03.05.04.04.02] excluir disciplina
+[03.05.04.04.03] editar disciplina
+[03.05.05] mais...
+[03.05.05.01] tipo de participação
+[03.05.05.01.01] incluir tipo participação
+[03.05.05.01.02] excluir tipo participação
+[03.05.05.01.03] editar tipo participação
+[03.05.05.02] tipo de certificação
+[03.05.05.02.01] incluir tipo de certificado
+[03.05.05.02.02] excluir tipo de certificado
+[03.05.05.02.03] editar tipo de certificado
+[03.05.05.03] solenidade
+[03.05.05.03.01] incluir solenidade
+[03.05.05.03.02] excluir solenidade
+[03.05.05.03.03] editar solenidade
+[03.06] assistentes
+[03.06.01] assistentes
+[03.06.01.01] importação de fotos
+[03.06.01.02] atualização de irmãos
+[03.06.01.03] cadastrar ocorrências para os alunos
+[03.06.01.05] cadastro de turma e turma/disciplina
+[03.06.01.06] inclusão de disciplinas em turmas
+[03.06.01.07] atualizar etapas da turma/disciplina
+[03.06.01.08] associar turma/disciplina como gerenciada
+[03.06.01.09] geração de arquivo enade - avaliação teórica
+[03.06.01.11] contabilização de alunos ativos
+[04] financeiro / contábil
+[04.01] contratos
+[04.01.01] contratos
+[04.01.01.01] log de movimentações do contrato
+[04.01.01.02] reajuste de valores em parcelas de contratos
+[04.01.01.03] incluir contrato
+[04.01.01.04] excluir contrato
+[04.01.01.05] editar contrato
+[04.01.01.06] bolsa do contrato
+[04.01.01.06.01] incluir bolsa do contrato
+[04.01.01.06.02] excluir bolsa do contrato
+[04.01.01.06.03] editar bolsa do contrato
+[04.01.01.06.04] visualizar informações das bolsas do contrato sem restrição por webservice
+[04.01.01.07] parcela do contrato
+[04.01.01.07.01] inserir parcela do contrato
+[04.01.01.07.02] excluir parcela do contrato
+[04.01.01.07.03] editar parcela do contrato
+[04.01.01.07.04] cópia de responsável financeiro
+[04.01.01.07.05] gerar lançamento pela parcela
+[04.01.01.07.06] visualizar informações das parcelas do contrato sem restrição por webservice
+[04.01.01.08] cancelamento de bolsa de funcionário
+[04.01.01.09] valor acumulado por serviço
+[04.01.01.10] atualizar responsável financeiro
+[04.01.01.11] altera plano de pagamento
+[04.01.01.12] contabilização
+[04.01.01.13] gerar lançamento pelo contrato
+[04.01.01.14] cancelar contrato
+[04.01.01.15] permite alteração de data contábil do contrato
+[04.01.01.16] processo de alteração de data contábil de contrato(s)
+[04.01.01.17] histórico de alteração da data contábil do contrato
+[04.01.01.18] rastreabilidade da bolsa retroativa
+[04.01.01.19] rastreabilidade de aproveitamento de créditos do contrato
+[04.01.01.20] desconto por antecipação por contrato
+[04.01.01.20.01] incluir desconto por antecipação
+[04.01.01.20.02] excluir desconto por antecipação
+[04.01.01.20.03] editar desconto por antecipação
+[04.01.01.21] visualizar informações do contrato sem restrição por webservice
+[04.01.01.22] visualizar assinatura do contrato
+[04.01.01.23] integração totvs assinatura eletrônica
+[04.01.01.24] fiadores do contrato
+[04.01.01.24.01] incluir fiador no contrato
+[04.01.01.24.02] editar fiador no contrato
+[04.01.04] fiadores
+[04.01.04.01] gestão de fiadores
+[04.01.04.02] incluir fiador
+[04.01.04.03] excluir fiador
+[04.01.04.04] editar fiador
+[04.01.04.05] documentos
+[04.01.04.05.01] incluir documento
+[04.01.04.05.02] excluir documento
+[04.01.04.05.03] editar documento
+[04.01.06] boletos
+[04.01.06.01] alteração de data de vencimento boleto
+[04.01.06.02] visualizar informações do boleto sem restrição por webservice
+[04.01.07] prospecções
+[04.01.07.01] incluir prospecção
+[04.01.07.02] excluir prospecção
+[04.01.07.03] editar prospecção
+[04.02] formação de preço
+[04.02.01] tabela de preço
+[04.02.01.01] log das disciplinas vinculadas à tabela de preço
+[04.02.01.02] incluir tabela de preços
+[04.02.01.03] excluir tabela de preços
+[04.02.01.04] editar tabela de preços
+[04.02.01.05] inserir vínculo da tabela de preços com a matriz aplicada
+[04.02.01.06] excluir vínculo da tabela de preços com a matriz aplicada
+[04.02.01.07] inserir vínculo da tabela de preços com o campus da matriz aplicada
+[04.02.01.08] excluir vínculo da tabela de preços com o campus da matriz aplicada
+[04.02.01.09] inserir vínculo da tabela de preços com a matriz aplicada do aluno
+[04.02.01.10] editar vínculo da tabela de preços com a matriz aplicada do aluno
+[04.02.01.11] excluir vínculo da tabela de preços com a matriz aplicada do aluno
+[04.02.01.12] visualizar alunos vinculados à tabela de preço
+[04.02.01.13] visualizar logs do vínculo da tabela de preço com o campus da matriz aplicada
+[04.02.01.14] visualizar logs do vínculo da tabela de preço com a matriz aplicada
+[04.02.01.15] processo vínculo da tabela de preços com a matriz aplicada e campus/polo
+[04.02.03] planos de pagamento
+[04.02.03.01] incluir plano de pagamento
+[04.02.03.02] excluir plano de pagamento
+[04.02.03.03] editar plano de pagamento
+[04.02.03.04] parcelas do plano de pagamento
+[04.02.03.04.01] incluir parcela do plano de pagamento
+[04.02.03.04.02] excluir parcela do plano de pagamento
+[04.02.03.04.03] editar parcela do plano de pagamento
+[04.02.03.04.04] atualiza parcela do plano de pagamento
+[04.02.03.05] habilitação / série do plano de pagamento
+[04.02.03.05.01] incluir habilitação / série do plano de pagamento
+[04.02.03.05.02] excluir habilitação / série do plano de pagamento
+[04.02.03.05.03] editar habilitação / série do plano de pagamento
+[04.02.03.06] associar matriz aplicada ao plano de pagamento
+[04.02.03.07] criação de parcelas
+[04.02.03.08] cópia de plano de pagamento
+[04.02.03.09] habilitações e períodos do plano de pagamento
+[04.02.03.09.01] incluir habilitações e períodos do plano de pagamento
+[04.02.03.09.02] excluir habilitações e períodos do plano de pagamento
+[04.02.03.09.03] editar habilitações e períodos do plano de pagamento
+[04.02.03.10] alteração da data contábil do plano de pagamento
+[04.02.03.11] desconto condicional
+[04.02.03.11.01] incluir desconto condicional
+[04.02.03.11.02] excluir desconto condicional
+[04.02.03.11.03] editar desconto condicional
+[04.02.03.12] desconto por pontualidade
+[04.02.03.12.01] incluir desconto por pontualidade
+[04.02.03.12.02] excluir desconto por pontualidade
+[04.02.03.12.03] editar desconto por pontualidade
+[04.02.04] serviços
+[04.02.04.01] histórico de alteração do serviço
+[04.02.04.02] incluir serviço
+[04.02.04.03] excluir serviço
+[04.02.04.04] editar serviço
+[04.02.04.05] integração protheus
+[04.02.06] faixas de crédito
+[04.02.06.01] incluir faixa de crédito
+[04.02.06.02] excluir faixa de crédito
+[04.02.06.03] editar faixa de crédito
+[04.02.07] bolsas
+[04.02.07.01] classificação de bolsas
+[04.02.07.01.01] incluir classificaçãobolsa
+[04.02.07.01.02] excluir classificaçãobolsa
+[04.02.07.01.03] editar classificaçãobolsa
+[04.02.07.02] bolsas por período letivo
+[04.02.07.03] concessão de bolsas futuras
+[04.02.07.03.01] incluir concessão de bolsas futuras
+[04.02.07.03.02] excluir concessão de bolsas futuras
+[04.02.07.03.03] editar concessão de bolsas futuras
+[04.02.07.04] assistente de concessão de bolsas futuras
+[04.02.07.05] conceder bolsas para irmãos
+[04.02.07.06] incluir bolsa
+[04.02.07.07] excluir bolsa
+[04.02.07.08] editar bolsa
+[04.02.07.09] bolsas por filial
+[04.02.07.09.01] incluir bolsa por filial
+[04.02.07.09.02] excluir bolsa por filial
+[04.02.07.09.03] editar bolsa por filial
+[04.02.07.10] desconto condicional da bolsa
+[04.02.07.11] incluir desconto condicional da bolsa
+[04.02.07.12] excluir desconto condicional da bolsa
+[04.02.07.13] editar desconto condicional da bolsa
+[04.02.07.14] associação de desconto por antecipação à bolsas
+[04.03] geração
+[04.03.01] financeiro
+[04.03.01.01] valor auxiliar
+[04.03.01.01.01] incluir
+[04.03.01.01.02] excluir
+[04.03.01.01.03] editar
+[04.03.01.02] valores de integração financeira
+[04.03.01.02.01] incluir
+[04.03.01.02.02] excluir
+[04.03.01.02.03] editar
+[04.03.01.03] desconto por antecipação
+[04.03.01.03.01] item do desconto por antecipação
+[04.03.01.03.01.01] incluir
+[04.03.01.03.01.02] excluir
+[04.03.01.03.01.03] editar
+[04.03.01.03.02] incluir
+[04.03.01.03.03] excluir
+[04.03.01.03.04] editar
+[04.03.01.05] alterar vencimento do desconto por antecipação do lançamento
+[04.03.01.06] gerar / excluir prévia de valores do lançamento
+[04.03.01.07] visualização dos valores da prévia
+[04.03.01.07.01] excluir prévia dos valores do lançamento
+[04.03.01.08] agrupar lançamento por responsável financeiro
+[04.03.08] contabilidade
+[04.03.08.01] eventos contábeis
+[04.03.08.01.01] inserir evento contábil
+[04.03.08.01.02] excluir evento contábil
+[04.03.08.01.03] editar evento contábil
+[04.03.08.02] ativa / desativa log de eventos contábeis
+[04.03.08.03] lotes de contabilizações por competência para o protheus
+[04.03.12] nf-e
+[04.03.12.01] geração de movimento
+[04.03.12.02] geração de movimento por competência
+[04.03.12.03] movimentos gerados por competência
+[04.03.12.04] enviar movimentos por competência para o protheus
+[04.04] assistentes
+[04.04.01] assistentes
+[04.04.01.01] inclusão de contratos para alunos
+[04.04.01.02] incluir bolsas
+[04.04.01.03] repasse de bolsas
+[04.04.01.04] incluir/excluir bolsas retroativas
+[04.04.01.05] desfazer inclusão de bolsas retroativas
+[04.04.01.06] excluir/cancelar bolsas
+[04.04.01.07] criar parcelas
+[04.04.01.08] cópia de faixa de crédito
+[04.04.01.09] associar matrículas a um item de contrato
+[04.04.01.10] controle de alteração de registros
+[04.04.01.11] aproveitar valores em conta corrente
+[04.05] financeiro
+[04.05.01] lançamentos
+[04.05.01.01] inserir novo lançamento
+[04.05.01.02] excluir lançamento
+[04.05.01.03] editar lançamento
+[04.05.01.04] cancelar lançamento
+[04.05.01.05] reimprimir autorização de pagamento
+[04.05.01.06] incluir lçtos para cli/for bloqueado
+[04.05.01.07] autoriza liberação
+[04.05.01.08] desautoriza liberação
+[04.05.01.09] inserir lançamento padrão
+[04.05.01.10] rateio por centro de custo de inclusão
+[04.05.01.11] rateio por departamento de inclusão
+[04.05.01.12] incluir filtro de lançamento
+[04.05.01.13] editar filtro de lançamento
+[04.05.01.14] excluir filtro de lançamento
+[04.05.01.15] exibir histórico de alterações
+[04.05.01.16] imprimir fatura
+[04.05.01.17] liberar bloqueios de clientes
+[04.05.01.18] importar lançamentos
+[04.05.01.19] liberar alteração de status cnab
+[04.05.01.20] parcelar lançamentos
+[04.05.01.21] emitir documento
+[04.05.01.22] vinculos
+[04.05.01.23] alteração global
+[04.05.01.24] bloqueio de alteração
+[04.05.01.25] desbloqueio de alteração
+[04.05.02] contas a pagar
+[04.05.02.01] incluir lançamentos a pagar
+[04.05.02.02] excluir lançamentos a pagar
+[04.05.02.03] visualizar lançamentos a pagar
+[04.05.03] contas a receber
+[04.05.03.01] incluir lançamentos a receber
+[04.05.03.02] excluir lançamentos a receber
+[04.05.03.03] visualizar lançamentos a receber
+[04.05.04] boleto
+[04.05.04.01] excluir boleto
+[04.05.04.02] editar boleto
+[04.05.04.03] geração do código de barras
+[04.05.04.04] remessa débito automático
+[04.05.04.05] cancelamento de boleto
+[04.05.04.06] impressão de boleto
+[04.05.04.07] alterar data de vencimento boleto
+[04.05.04.08] cancelamento remessa de boleto
+[04.05.04.09] envio de boleto por e-mail
+[04.05.04.10] remoção do código de barras
+[04.05.04.11] alterar conta caixa e convênio boleto
+[04.05.04.12] alteração global de boleto
+[04.05.04.13] inclusão de boleto
+[04.05.04.14] inclusão de lançamento de boleto
+[04.05.04.15] desvincular lançamento de boleto
+[04.05.05] acordo
+[04.05.05.01] template acordo
+[04.05.05.01.01] inserir template acordo
+[04.05.05.01.02] remover template acordo
+[04.05.05.01.03] editar template acordo
+[04.05.05.02] gerenciar acordo
+[04.05.05.02.01] editar acordo
+[04.05.05.02.02] excluir acordo
+[04.05.05.02.03] cancelar acordo
+[04.05.05.02.04] aprovar acordo
+[04.05.05.02.05] alterar valores do acordo durante o processo
+[04.05.05.02.06] gerar acordo
+[04.05.08] repasse
+[04.05.08.01] repasse
+[04.05.08.02] repasse automático
+[04.05.08.03] exibir repasse
+[04.05.09] duplicata
+[04.05.09.01] desconto duplicata
+[04.05.09.02] efetiva desconto duplicata
+[04.05.09.03] devolve desconto
+[04.05.10] cheque
+[04.05.10.01] imprimir cheque
+[04.05.10.02] cancelar cheque
+[04.05.10.03] cheque a pagar
+[04.05.10.04] visualização de cheque
+[04.05.10.05] manutenção de cheque
+[04.05.11] integração contábil
+[04.05.11.01] visualizar lançamentos contábeis
+[04.05.11.02] visualizar lançamentos não contábeis
+[04.05.11.03] editar contabilização
+[04.05.11.04] regerar contabilização de inclusão
+[04.05.11.05] contabilização de inclusão
+[04.05.11.06] permitir alterar data estorno contabilização inclusão
+[04.05.11.07] solicitar exclusão operação contábil de inclusão
+[04.05.11.08] regerar contabilização integrada ao lote zero
+[04.05.11.09] regerar contabilização não integrada ao lote zero
+[04.05.12] baixa
+[04.05.12.01] baixar lançamentos a pagar
+[04.05.12.02] baixar lançamentos a receber
+[04.05.12.03] cancelar baixa a pagar
+[04.05.12.04] cancelar baixa lançamentos a receber
+[04.05.12.05] estornar contabilização da baixa
+[04.05.12.06] contabilizar baixados
+[04.05.12.07] bloquear/desbloquear baixa de lançamentos
+[04.05.12.08] desbloquear baixa
+[04.05.12.09] baixar por perda financeira
+[04.05.12.10] cancelar baixa de extrato agrupado
+[04.05.12.11] contabilização da baixa
+[04.05.12.12] contabilizar baixa por centro de custo
+[04.05.12.13] contabilizar baixa por departamento
+[04.05.12.14] permitir alterar data de estorno da contabilização da baixa
+[04.05.12.15] solicitar exclusão da operação contábil da baixa
+[04.05.12.16] excluir baixa do lançamento
+[04.05.12.17] permitir alterar valor de juros, multa e tributos na baixa
+[04.06] sessão de caixa
+[04.06.01] gerenciar caixas
+[04.06.02] ativar
+[04.06.03] abrir nova
+[04.06.03.01] informar saldo inicial
+[04.06.04] fechar atual
+[04.06.05] perfis
+[04.06.05.01] alterar data do módulo de caixa
+[04.06.05.02] gerenciar todas sessões
+[04.06.05.03] liberar estorno transação sitef
+[04.07] central financeira
+[05] integrações
+[05.01] integrações
+[05.01.01] scientia
+[05.01.01.01] departamento do scientia enterprise
+[05.01.01.01.01] incluir departamento scientia
+[05.01.01.01.02] excluir departamento scientia
+[05.01.01.01.03] editar departamento scientia
+[05.01.01.02] exportação de dados para o scientia enterprise
+[05.01.01.03] importação de dados do scientia enterprise
+[05.01.01.04] turma/disciplina sugerida
+[05.01.01.04.01] editar turma/disciplina sugerida
+[05.01.01.04.02] turma/disciplina associada
+[05.01.01.04.03] grupos de alunos da turma/disciplina sugerida
+[05.01.01.04.04] horário da turma/disciplina sugerida
+[05.01.01.04.04.01] editar horário da turma/disciplina sugerida
+[05.01.01.04.04.02] professor do horário da turma/disciplina sugerida
+[05.01.01.04.04.02.01] excluir professor do horário
+[05.01.01.04.04.02.02] editar professor do horário
+[05.01.01.04.05] log da turma/disciplina sugerida
+[05.01.01.04.06] subturma
+[05.01.01.04.06.01] incluir subturma
+[05.01.01.04.06.02] excluir subturma
+[05.01.01.04.06.03] editar subturma
+[05.01.01.04.07] turma/disciplinas gerenciadas
+[05.01.01.04.08] atualização do log das turmas/disciplinas sugeridas
+[05.01.01.05] atualização das informações das turmas/disciplinas sugeridas
+[05.01.01.06] exclusão da turma/disciplina associada ao scientia enterprise
+[05.01.01.07] criar estrutura de oferta a partir das turmas/disciplinas sugeridas
+[05.01.09] saída inteligente
+[05.01.09.01] cadastro unidade de ponto
+[05.01.09.01.01] incluir unidade de ponto
+[05.01.09.01.02] excluir unidade de ponto
+[05.01.09.01.03] editar unidade de ponto
+[05.01.09.02] exportar aluno/responsável para a aplicação saída inteligente
+[05.01.09.03] excluir aluno da aplicação saída inteligente
+[05.01.09.04] sincronizar aluno/responsável para a aplicação saída inteligente
+[05.01.14] urânia
+[05.01.14.01] exportação de dados para o urânia
+[05.01.14.02] importação de dados do urânia
+[05.01.14.03] estrutura das turmas/disciplinas importadas do urânia
+[05.01.14.03.01] horários da turma/disciplina
+[05.01.14.03.02] professores do horário
+[05.01.14.03.03] log da turma/disciplina
+[05.01.14.03.04] atualiza status log
+[05.01.14.04] criar estrutura de oferta a partir das turmas/disciplinas importadas
+[05.01.19] pergamum
+[05.01.19.01] unidade bibliotecária do pergamum
+[05.01.19.01.01] incluir unidade bibliotecária
+[05.01.19.01.02] excluir unidade bibliotecária
+[05.01.19.01.03] editar unidade bibliotecária
+[05.01.19.01.04] permissão de acesso para outras filiais
+[05.01.19.01.04.01] incluir permissão de acesso para outras filiais
+[05.01.19.01.04.02] excluir permissão de acesso para outras filiais
+[05.01.19.01.04.03] editar permissão de acesso para outras filiais
+[05.01.19.01.05] restrição de acesso
+[05.01.19.01.05.01] incluir restrição de acesso
+[05.01.19.01.05.02] excluir restrição de acesso
+[05.01.19.01.05.03] editar restrição de acesso
+[05.01.19.01.06] incluir parâmetros financeiros
+[05.01.19.01.07] excluir parâmetros financeiros
+[05.01.19.01.08] editar parâmetros financeiros
+[05.01.19.02] vinculo do usuário do pergamum com as entidades do totvs
+[05.01.19.02.01] incluir vinculo do usuário do pergamum
+[05.01.19.02.02] excluir vinculo do usuário do pergamum
+[05.01.19.02.03] editar vinculo do usuário do pergamum
+[05.01.19.03] cadastro de relacionamento entre tabelas básicas
+[05.01.19.04] exportar usuários para o pergamum
+[05.01.19.05] atualizar usuários no pergamum
+[05.01.19.06] atualiza status dos alunos e funcionários no pergamum
+[05.01.19.07] importar multas geradas no pergamum
+[05.01.19.08] exporta programa de ensino para pergamum
+[05.01.28] fast analytics
+[05.01.28.01] agrupamento
+[05.01.28.01.01] incluir agrupamento
+[05.01.28.01.02] excluir agrupamento
+[05.01.28.01.03] editar agrupamento
+[05.01.28.01.04] item de agrupamento
+[05.01.28.01.04.01] incluir item de agrupamento
+[05.01.28.01.04.02] excluir item de agrupamento
+[05.02] fluig
+[05.02.01] consultas rápidas
+[05.02.01.01] meus horários (professor)
+[05.02.01.02] minhas turmas (professor)
+[05.02.01.03] minhas notas (aluno)
+[05.02.01.04] extrato financeiro (aluno)
+[05.02.01.05] aluno (secretaria)
+[05.02.01.06] professor (secretaria)
+[05.03] protheus rh
+[05.03.01] protheus
+[05.03.01.01] apontamento de faltas
+[05.03.01.01.01] incluir apontamento de faltas para professor
+[05.03.01.01.02] excluir apontamento de faltas para professor
+[05.03.01.01.03] editar apontamento de faltas para professor
+[05.03.01.02] associação de tabelas salariais aos professores
+[05.03.01.03] log de exportação de lançamentos
+[05.03.01.04] processo para geração de carga inicial de entidades acadêmicas
+[05.04] protheus  financeiro/contábil
+[05.04.01] cadastro bancário
+[05.04.01.01] cadastro cobrança
+[05.04.01.01.01] incluir cadastro cobrança
+[05.04.01.01.02] excluir cadastro cobrança
+[05.04.01.01.03] alterar cadastro cobrança
+[05.04.01.02] cadastro débito automático
+[05.04.01.02.01] incluir cadastro débito automático
+[05.04.01.02.02] excluir cadastro débito automático
+[05.04.01.02.03] alterar cadastro débito automático
+[05.04.04] retorno bancário
+[05.04.04.01] retorno cobrança
+[05.04.04.02] retorno débito automático
+[05.04.07] mais
+[05.04.07.01] bancos e agências
+[05.04.07.02] convênio
+[05.04.07.03] classe de valor
+[05.04.07.04] item contábil
+[05.05] recursos humanos
+[05.05.01] classificação de jornada dos horários
+[05.06] check-in da aula - aplicação externa
+[06] assinatura eletrônica
+[06.01] monitor
+[06.01.01] monitor de documentos enviados para assinatura
+[06.01.02] atualizar os status dos documentos integrados
+[06.01.03] assinar os documentos integrados
+[06.01.04] excluir os documentos integrados
+[06.01.05] excluir vínculos dos documentos do diário de classe assinados
+[06.01.06] enviar os documentos para assinatura
+[06.02] integração
+[06.02.01] documentos
+[06.02.01.01] documento: inserir
+[06.02.01.02] documento: editar
+[06.02.01.03] documento: excluir
+[06.02.01.04] destinatário documento
+[06.02.01.04.01] incluir destinatário
+[06.02.01.04.02] excluir destinatário
+[06.02.01.04.03] editar destinatário
+[07] configurações
+[07.01] configuração
+[07.01.01] níveis de ensino
+[07.01.01.01] incluir nível de ensino
+[07.01.01.02] excluir nível de ensino
+[07.01.01.03] editar nível de ensino
+[07.01.01.04] níveis de ensino por filial
+[07.01.01.04.01] incluir nível de ensino por filial
+[07.01.01.04.02] excluir nível de ensino por filial
+[07.01.01.04.03] editar nível de ensino por filial
+[07.01.02] agrupamento de unidade
+[07.01.02.01] sincronizar
+[07.01.02.02] incluir agrupamento de unidade
+[07.01.02.03] excluir agrupamento de unidade
+[07.01.02.04] editar agrupamento de unidade
+[07.01.02.05] item do agrupamento de unidade
+[07.01.02.05.01] incluir item do agrupamento de unidade
+[07.01.02.05.02] excluir item do agrupamento de unidade
+[07.01.02.05.03] editar item do agrupamento de unidade
+[07.01.02.06] usuário do agrupamento de unidade
+[07.01.02.06.01] incluir usuário no agrupamento de unidade
+[07.01.02.06.02] excluir usuário no agrupamento de unidade
+[07.01.02.06.03] editar usuário no agrupamento de unidade
+[07.01.02.07] professor do agrupamento de unidade
+[07.01.02.07.01] incluir professor no agrupamento de unidade
+[07.01.02.07.02] excluir professor no agrupamento de unidade
+[07.01.02.07.03] editar professor no agrupamento de unidade
+[07.01.02.08] aluno do agrupamento de unidade
+[07.01.02.08.01] incluir aluno no agrupamento de unidade
+[07.01.02.08.02] excluir aluno no agrupamento de unidade
+[07.01.02.08.03] editar aluno no agrupamento de unidade
+[07.01.02.09] associar alunos, professores e usuários
+[07.01.02.10] perfil do agrupamento de unidade
+[07.01.02.10.01] incluir perfil no agrupamento de unidade
+[07.01.02.10.02] excluir perfil no agrupamento de unidade
+[07.01.02.10.03] editar perfil no agrupamento de unidade
+[07.01.04] campos complementares
+[07.01.04.01] aluno
+[07.01.04.02] ocorrências do aluno
+[07.01.04.03] professor
+[07.01.04.04] ocorrências do professor
+[07.01.04.06] curso
+[07.01.04.07] habilitação
+[07.01.04.08] matriz curricular
+[07.01.04.09] disciplina da matriz curricular
+[07.01.04.10] disciplinas do itinerário formativo
+[07.01.04.11] bolsa
+[07.01.04.12] serviço
+[07.01.04.13] turma
+[07.01.04.14] turma/disciplina
+[07.01.04.15] turmas do professor
+[07.01.04.16] matrícula no período letivo
+[07.01.04.17] matrícula na disciplina
+[07.01.04.18] avaliações no período letivo
+[07.01.04.19] atividade ofertada
+[07.01.04.20] atividade curricular do aluno
+[07.01.04.21] habilitações do aluno
+[07.01.04.22] matriz curricular do aluno
+[07.01.04.23] disciplina da matriz curricular do aluno
+[07.01.04.24] concessão de bolsas futuras
+[07.01.04.25] prédio
+[07.01.04.26] bloco
+[07.01.04.27] sala
+[07.01.04.28] recurso
+[07.01.04.29] empresa
+[07.01.04.30] funcionário da empresa
+[07.01.35] parâmetros
+[08] educonnect
+[08.01] permite autenticar no educonnect nos parâmetros do sistema
+[08.02] permite acesso ao educonnect
+[08.03] mensagens pessoais
+[08.03.01] enviar mensagens de alunos para professores
+[08.03.01.01] enviar arquivo de alunos para professores
+[08.03.02] enviar mensagens de pais para professores
+[08.03.02.01] enviar arquivo de pais para professores
+[08.03.03] enviar mensagens de responsável acadêmico para professores
+[08.03.03.01] enviar arquivo de responsável acadêmico para professores
+[08.03.04] enviar mensagens de responsável financeiro para professores
+[08.03.04.01] enviar arquivo de responsável financeiro para professores
+[08.03.05] enviar mensagens de professores para alunos
+[08.03.05.01] enviar arquivo de professores para alunos
+[08.03.06] enviar mensagens de professores para pais
+[08.03.06.01] enviar arquivo de professores para pais
+[08.03.07] enviar mensagens de professores para responsável acadêmico
+[08.03.07.01] enviar arquivo de professores para responsável acadêmico
+[08.03.08] enviar mensagens de professores para responsável financeiro
+[08.03.08.01] enviar arquivo de professores para responsável financeiro
+[08.03.09] enviar mensagens de alunos para sala de atendimento
+[08.03.09.01] enviar arquivo de alunos para sala de atendimento
+[08.03.10] enviar mensagens de responsável acadêmico para sala de atendimento
+[08.03.10.01] enviar arquivo de responsável acadêmico para sala de atendimento
+[08.03.11] enviar mensagens de responsável financeiro para sala de atendimento
+[08.03.11.01] enviar arquivo de responsável financeiro para sala de atendimento
+[08.04] permite acesso ao totvs pagamento cartão - tpc
+[08.05] agenda infantil
+[08.05.01] acesso ao professor
+[08.05.02] acesso ao responsável
+[08.05.03] enviar recado de responsável para professores
+[08.05.04] permite visualizar recado do responsável
+[08.05.05] permite liberar evento(s) em lote
+[08.06] pagamento
+[08.07] check-in da aula
+[08.08] carteirinha digital
+[09] customização
+[09.01] customização
+[09.01.01] gerar relatório/enviar/assinar (doc.xpress)
+[09.01.02] enviar documento (doc.xpress)
+[09.01.03] acesso doc.xpress
+[09.01.03.01] inserir registro - acesso doc.xpress
+[09.01.03.02] excluir registro - acesso doc.xpress
+[09.01.03.03] editar registro - acesso doc.xpress
+[09.01.04] visualizar documento (doc.xpress)
+[09.01.04.01] inserir registro - visualizar documento (doc.xpress)
+[09.01.04.02] excluir registro - visualizar documento (doc.xpress)
+[09.01.04.03] editar registro - visualizar documento (doc.xpress)
+[09.01.05] gerar diploma digital (doc.xpress)
+[09.01.06] modelo de etapas
+[09.01.06.01] incluir modelo de etapas
+[09.01.06.02] excluir modelo de etapas
+[09.01.06.03] editar modelo de etapas
+[09.01.06.04] definir leiaute
+[09.01.07] estabelecimento cielo
+[09.01.07.01] incluir estabelecimento cielo
+[09.01.07.02] excluir estabelecimento cielo
+[09.01.07.03] editar estabelecimento cielo
+[09.01.07.04] definir leiaute
+[09.01.08] regra de parcelamento
+[09.01.08.01] incluir regra de parcelamento
+[09.01.08.02] excluir regra de parcelamento
+[09.01.08.03] editar regra de parcelamento
+[09.01.08.04] definir leiaute
+[09.01.09] matrícula - base esperada
+[09.01.09.01] incluir matrícula - base esperada
+[09.01.09.02] excluir matrícula - base esperada
+[09.01.09.03] editar matrícula - base esperada
+[09.01.09.04] definir leiaute
+[09.01.10] automação - concessão de bolsa futura
+[09.01.10.01] incluir automação - concessão de bolsa futura
+[09.01.10.02] excluir automação - concessão de bolsa futura
+[09.01.10.03] editar automação - concessão de bolsa futura
+[09.01.10.04] definir leiaute
+[09.01.11] vencimento de parcelas do plano de pagamento
+[09.01.11.01] incluir vencimento de parcelas do plano de pagamento
+[09.01.11.02] excluir vencimento de parcelas do plano de pagamento
+[09.01.11.03] editar vencimento de parcelas do plano de pagamento
+[09.01.11.04] definir leiaute
+[09.01.12] histórico visão 360
+[09.01.12.01] incluir histórico visão 360
+[09.01.12.02] excluir histórico visão 360
+[09.01.12.03] editar histórico visão 360
+[09.01.12.04] definir leiaute
+[09.01.13] reset de senha do usuário
+[09.01.13.01] incluir reset de senha do usuário
+[09.01.13.02] excluir reset de senha do usuário
+[09.01.13.03] editar reset de senha do usuário
+[09.01.13.04] definir leiaute
+[09.01.14] relatório de termo de compromisso
+[09.01.14.01] incluir relatório de termo de compromisso
+[09.01.14.02] excluir relatório de termo de compromisso
+[09.01.14.03] editar relatório de termo de compromisso
+[09.01.14.04] definir leiaute
+[09.01.15] cadastro de metas comerciais
+[09.01.15.01] incluir cadastro de metas comerciais
+[09.01.15.02] excluir cadastro de metas comerciais
+[09.01.15.03] editar cadastro de metas comerciais
+[09.01.15.04] definir leiaute
+[09.01.16] autorizações especiais de matrícula
+[09.01.16.01] incluir autorizações especiais de matrícula
+[09.01.16.02] excluir autorizações especiais de matrícula
+[09.01.16.03] editar autorizações especiais de matrícula
+[09.01.16.04] definir leiaute
+[09.01.17] pbl - professor/turma
+[09.01.17.01] incluir pbl - professor/turma
+[09.01.17.02] excluir pbl - professor/turma
+[09.01.17.03] editar pbl - professor/turma
+[09.01.17.04] definir leiaute
+[09.01.18] pbl - problemas
+[09.01.18.01] incluir pbl - problemas
+[09.01.18.02] excluir pbl - problemas
+[09.01.18.03] editar pbl - problemas
+[09.01.18.04] definir leiaute
+[09.01.19] pbl - notas
+[09.01.19.01] incluir pbl - notas
+[09.01.19.02] excluir pbl - notas
+[09.01.19.03] editar pbl - notas
+[09.01.19.04] definir leiaute
+[09.01.20] história do problema (arquivos)
+[09.01.20.01] incluir história do problema (arquivos)
+[09.01.20.02] excluir história do problema (arquivos)
+[09.01.20.03] editar história do problema (arquivos)
+[09.01.20.04] definir leiaute
+[09.01.21] base de dados cpa
+[09.01.21.01] incluir base de dados cpa
+[09.01.21.02] excluir base de dados cpa
+[09.01.21.03] editar base de dados cpa
+[09.01.21.04] definir leiaute
+[09.01.21.05] incluir contratos encerrados pós graduação
+[09.01.21.06] excluir contratos encerrados pós graduação
+[09.01.21.07] editar contratos encerrados pós graduação
+[09.01.22] base de logs cpa
+[09.01.22.01] incluir base de logs cpa
+[09.01.22.02] excluir base de logs cpa
+[09.01.22.03] editar base de logs cpa
+[09.01.22.04] definir leiaute
+[10] by worknow
+[10.01] acadêmico
+[10.01.01] prova fácil
+[10.01.01.01] processo de integração
+[10.01.01.03] log de integração
+[10.01.01.03.01] inserir registro - log de integração
+[10.01.01.03.02] excluir registro - log de integração
+[10.01.01.03.03] editar registro - log de integração
+[10.01.01.04] inserir registro - parâmetros prova fácil
+[10.01.01.05] excluir registro - parâmetros prova fácil
+[10.01.01.06] editar registro - parâmetros prova fácil
+[10.01.05] prova fácil - etapa complementar
+[10.01.05.01] incluir prova fácil - etapa complementar
+[10.01.05.02] excluir prova fácil - etapa complementar
+[10.01.05.03] editar prova fácil - etapa complementar
+[10.01.05.04] definir leiaute
+[10.01.06] prova fácil - disciplina complementar
+[10.01.06.01] incluir prova fácil - disciplina complementar
+[10.01.06.02] excluir prova fácil - disciplina complementar
+[10.01.06.03] editar prova fácil - disciplina complementar
+[10.01.06.04] definir leiaute
+[11] gestão
+[11.01] utilitários
+[11.01.01] calculadora
+[11.01.02] agenda
+[11.01.02.01] inserir compromisso
+[11.01.02.02] remover compromisso
+[11.01.02.03] editar compromisso
+[11.01.03] calendários
+[11.01.03.01] incluir calendários e feriados
+[11.01.03.02] excluir calendários e feriados
+[11.01.03.03] editar calendários e feriados
+[11.01.04] totvs compartilhamento
+[11.02] ferramentas de análise
+[11.02.01] cubo
+[11.02.01.01] cadastro de cubos
+[11.02.01.01.01] inserir cubo
+[11.02.01.01.02] excluir cubo
+[11.02.01.01.03] editar cubo
+[11.02.01.02] excluir cubo
+[11.02.01.03] alterar cubo
+[11.02.01.04] visualizar cubo
+[11.02.01.05] atualizar cubo
+[11.02.01.06] exportar cubo para visualizador de cubos (cubx)
+[11.02.01.07] exportar cubo para documento (xls, pdf, rtf, etc)
+[11.02.01.08] imprimir cubo
+[11.02.01.09] salvar gráfico
+[11.02.03] planilha net
+[11.02.03.01] incluir planilha net
+[11.02.03.02] excluir planilha net
+[11.02.03.03] editar planilha net
+[11.02.03.04] configurar parâmetro de recálculo automático na inicialização
+[11.02.03.05] habilitar botão salvar
+[11.02.03.06] habilitar botão salvar como excel na planilha rm
+[11.02.03.07] converter planilha excel para planilha rm
+[11.02.03.08] reexecutar consulta sql da celula
+[11.02.03.09] visualizar consulta sql da celula
+[11.02.03.10] associar consulta sql à célula
+[11.02.03.11] desassociar consulta sql da célula
+[11.02.03.12] ordem de execução das consultas sql da planílha
+[11.02.03.13] reexecutar as consultas sql de todas as planilhas
+[11.02.03.14] reexecutar as consultas sql planilha atual
+[11.02.03.15] recalcular automaticamente
+[11.02.03.16] associar variável a célula
+[11.02.03.17] adicionar gráfico
+[11.02.03.18] remover gráfico
+[11.02.03.19] editar grafico
+[11.02.04] fórmula visual
+[11.02.04.01] atividades
+[11.02.04.01.01] incluir atividades
+[11.02.04.01.02] excluir atividades
+[11.02.04.01.03] editar atividades
+[11.02.04.02] categorias
+[11.02.04.02.01] incluir categorias
+[11.02.04.02.02] excluir categorias
+[11.02.04.02.03] editar categorias
+[11.02.04.03] fórmula visual
+[11.02.04.03.01] incluir fórmula visual
+[11.02.04.03.02] excluir fórmula visual
+[11.02.04.03.03] editar fórmula visual
+[11.02.04.03.04] executar fórmula visual
+[11.02.08] smart view
+[11.02.08.01] inserir recurso
+[11.02.08.02] excluir recurso
+[11.02.08.03] editar recurso
+[11.02.08.04] processos
+[11.02.08.04.01] importar recurso
+[11.02.08.04.02] exportar recurso
+[11.02.10] rm reports
+[11.02.10.01] inserir relatório
+[11.02.10.02] excluir relatório
+[11.02.10.03] editar relatório
+[11.02.10.04] processos
+[11.02.10.04.01] copiar relatórios
+[11.02.10.04.02] editar estrutura
+[11.02.10.04.03] importar relatórios
+[11.02.10.04.04] exportar relatórios
+[11.02.10.04.05] gerar relatórios
+[11.02.11] visões de dados
+[11.02.11.01] incluir consultas sql
+[11.02.11.02] excluir consultas sql
+[11.02.11.03] editar consultas sql
+[11.02.12] painéis de cenários
+[11.02.12.01] inserir novo rmpart
+[11.02.12.02] renomear guia
+[11.02.12.03] deletar guia
+[11.02.12.04] exportar cenário
+[11.02.12.05] importar cenário
+[11.02.12.06] alterar parâmetros
+[11.02.13] gerador de saída
+[11.02.13.01] executar
+[11.02.13.02] incluir layout
+[11.02.13.03] excluir layout
+[11.02.13.04] alterar layout
+[11.02.13.05] importar layout
+[11.02.13.06] exportar layout
+[11.03] gráficos
+[11.03.01] gráfico
+[11.03.01.01] incluir gráficos
+[11.03.01.02] excluir gráficos
+[11.03.01.03] editar gráficos
+[11.03.01.04] visualizar gráficos
+[11.03.02] categorias
+[11.03.02.01] incluir categorias de gráficos
+[11.03.02.02] excluir categorias de gráficos
+[11.03.02.03] editar categorias de gráficos
+[11.03.03] fontes de gráficos
+[11.03.04] data limite digitação
+[11.03.04.01] incluir data limite digitação
+[11.03.04.02] excluir data limite digitação
+[11.03.04.03] editar data limite digitação
+[11.03.04.04] definir leiaute
+[11.04] rss
+[11.04.01] leitor rss
+[11.04.01.01] receber e-mails de novos feeds
+[11.04.02] iniciar serviço
+[11.04.03] configuração
+[11.04.04] canais rss
+[11.04.04.01] incluir canal rss
+[11.04.04.02] excluir canal rss
+[11.04.04.03] editar canal rss
+[11.04.05] meus canais
+[11.05] rm conector
+[11.05.01] rm conector
+[11.05.01.01] exportação
+[11.05.01.02] importação
+[11.05.01.03] gerenciamento
+[11.06] comunicação
+[11.06.01] aplicativos externos
+[11.06.01.01] inserir aplicativo externo
+[11.06.01.02] remover aplicativo externo
+[11.06.01.03] editar aplicativo externo
+[11.06.01.04] customizar aplicativo externo
+[11.06.01.05] gerenciamento de correspondências entre rm e provedores
+[11.06.02] aplicativos saml
+[11.06.02.01] inserir aplicativos saml
+[11.06.02.02] remover aplicativos saml
+[11.06.02.03] editar aplicativos saml
+[12] ambiente
+[12.01] processos
+[12.01.01] gerenciamento de jobs
+[12.01.01.01] iniciar servidor
+[12.01.01.02] interromper servidor
+[12.01.01.03] finalizar servidor
+[12.01.01.04] interromper job
+[12.01.01.05] ativar job
+[12.01.01.06] desativar job
+[12.01.01.07] consultar jobs emitidos de todos os usuários
+[12.01.01.08] excluir job
+[12.01.02] relatórios gerados
+[12.01.02.01] exclusão em bloco de relatórios gerados
+[12.01.03] cockpit
+[12.01.04] segurança de jobs fracionáveis
+[12.01.04.01] incluir jobs fracionáveis
+[12.01.04.02] excluir jobs fracionáveis
+[12.01.04.03] editar jobs fracionáveis
+[12.02] configuração
+[12.02.01] diagnóstico do sistema
+[12.02.01.01] gerar diagnóstico
+[12.02.02] deploy granular
+[12.02.03] parâmetros
+[12.02.03.01] educacional
+[12.02.03.02] parâmetros globais
+[12.02.03.03] define integrações entre os vários sistemas componentes do erp
+[12.02.03.03.01] incluir integrações de sistemas
+[12.02.03.03.02] excluir integrações de sistemas
+[12.02.03.03.03] editar integrações de sistemas
+[12.03] totvs fluig
+[12.04] ajuda
+[12.04.01] sobre
+[12.04.02] links
+[13] outras permissões
+[13.01] outros módulos
+[13.01.01] pessoas
+[13.01.01.01] incluir pessoas
+[13.01.01.02] excluir pessoas
+[13.01.01.03] editar pessoas
+[13.01.01.04] verificar características pessoais
+[13.01.01.05] inserir características pessoais
+[13.01.01.06] remover características pessoais
+[13.01.01.07] editar características pessoais
+[13.01.01.08] exclusão coletiva de candidatos
+[13.01.01.09] incluir processo de admissão
+[13.01.01.10] excluir processo de admissão
+[13.01.01.11] enviar e-mail
+[13.01.01.12] trocar chapa do funcionário
+[13.01.01.13] incluir acesso rm portal
+[13.01.01.14] visualizar documentos
+[13.01.01.15] alterar documentos
+[13.01.01.16] visualizar identificação
+[13.01.01.17] alterar identificação
+[13.01.01.18] visualizar informações adicionais
+[13.01.01.19] alterar informações adicionais
+[13.01.01.20] visualizar endereço principal
+[13.01.01.21] alterar endereço principal
+[13.01.01.22] filiação
+[13.01.01.22.01] incluir
+[13.01.01.22.02] excluir
+[13.01.01.22.03] editar
+[13.01.02] clientes e fornecedores
+[13.01.02.01] incluir clientes e fornecedores
+[13.01.02.02] excluir clientes e fornecedores
+[13.01.02.03] editar clientes e fornecedores
+[13.01.02.04] alteração global de cliente/fornecedor
+[13.01.02.05] imprimir relatório simplificado de cliente/fornecedor
+[13.01.02.06] acessar cliente
+[13.01.02.07] acessar fornecedor
+[13.01.02.08] enviar e-mail para cliente/fornecedor
+[13.01.02.09] incluir filtro de cliente/fornecedor
+[13.01.02.10] editar filtro de cliente/fornecedor
+[13.01.02.11] excluir filtro de cliente/fornecedor
+[13.01.02.12] exportar visão para arquivo no formato csv
+[13.01.03] contato do cliente/fornecedor
+[13.01.03.01] inserir contato do cliente/fornecedor
+[13.01.03.02] excluir contato do cliente/fornecedor
+[13.01.03.03] editar contato do cliente/fornecedor
+[13.01.04] funcionários
+[13.01.04.01] incluir funcionários
+[13.01.04.02] excluir funcionários
+[13.01.04.03] editar funcionários
+[14] permissões globais
+[14.01] filtros
+[14.01.01] filtros globais
+[14.01.02] filtros relatórios
+[14.02] processos
+[14.02.01] reportar para totvs
+[14.03] repositório de arquivos
+[14.03.01] inserir arquivo
+[14.03.02] remover arquivo
+[14.03.03] editar arquivo
+[15] educacional (portal)
+[15.01] acadêmico
+[15.01.01] contexto
+[15.01.02] dados pessoais
+[15.01.02.01] permite alteração de dados profissionais
+[15.01.03] responsáveis
+[15.01.03.01] responsáveis acadêmico/financeiro
+[15.01.03.01.01] atualizar responsáveis acadêmico/financeiro
+[15.01.03.02] responsáveis temporários
+[15.01.03.02.01] incluir responsável temporário
+[15.01.03.02.02] atualizar responsável temporário
+[15.01.06] cursos da instituição
+[15.01.07] calendário do aluno
+[15.01.08] histórico ensino superior
+[15.01.09] histórico ensino básico
+[15.01.10] disciplinas ensino básico
+[15.01.11] movimentação acadêmica
+[15.01.12] notas e faltas de etapas
+[15.01.13] nota/falta unificada
+[15.01.14] notas de avaliações
+[15.01.15] entrega de trabalhos e avaliações
+[15.01.16] desempenho
+[15.01.17] frequência diária
+[15.01.18] quadro de horários
+[15.01.19] atividades curriculares
+[15.01.19.01] inscrever em atividades ofertadas
+[15.01.19.02] atividades inscritas
+[15.01.19.02.01] permitir cancelar a inscrição (somente para o novo portal do aluno)
+[15.01.22] matrícula on-line ensino superior
+[15.01.23] confirmação de rematrícula para ensino básico
+[15.01.24] matrícula no itinerário formativo
+[15.01.25] períodos de matrícula
+[15.01.26] visualizar ocorrências
+[15.01.27] solicitações
+[15.01.27.01] permitir inclusão de discussão no atendimento
+[15.01.28] matriz curricular
+[15.01.29] plano de aula
+[15.01.30] documentos obrigatórios
+[15.01.31] upload de documentos (apenas novo portal do aluno)
+[15.01.32] quadro de avisos
+[15.01.33] estágio e emprego
+[15.01.33.01] acompanhamento de vagas de estágio
+[15.01.33.01.01] plano de atividade
+[15.01.33.01.02] avaliação final
+[15.01.33.02] solicitação de estágio
+[15.01.33.02.01] funcionários da solicitação de estágio
+[15.01.33.03] vagas disponíveis/inscritas
+[15.01.34] trabalho de conclusão de curso (tcc)
+[15.01.34.01] consultar reuniões de acompanhamento do tcc
+[15.01.34.02] alterar reuniões de acompanhamento do tcc
+[15.01.34.03] convidar professores para orientar o tcc
+[15.01.35] url's externas
+[15.01.36] faltas por etapa
+[15.01.37] widgets
+[15.01.37.01] permite alterar configurações do widget
+[15.01.39] ficha médica (apenas novo portal do aluno)
+[15.01.39.01] permite alteração de dados da ficha médica do aluno
+[15.01.40] aceleradora de carreiras
+[15.01.41] competências/habilidades ensino básico
+[15.01.42] prova fácil
+[15.02] financeiro
+[15.02.01] extrato financeiro (novo)
+[15.02.01.01] benefícios (novo)
+[15.02.03] extrato financeiro
+[15.02.03.01] benefícios
+[15.02.05] negociação on-line
+[15.03] materiais
+[15.03.01] arquivos da instituição
+[15.03.02] arquivos por disciplina
+[15.04] professor
+[15.04.01] diário de classe
+[15.04.01.01] cadastro de avaliações
+[15.04.01.01.01] incluir provas (professor)
+[15.04.01.01.02] excluir provas (professor)
+[15.04.01.01.03] editar provas (professor)
+[15.04.01.01.04] permite ao coordenador do curso incluir provas
+[15.04.01.01.05] permite ao coordenador do curso excluir provas
+[15.04.01.01.06] permite ao coordenador do curso editar provas
+[15.04.01.02] alunos
+[15.04.01.03] frequência diária
+[15.04.01.03.01] permite ao coordenador do curso alterar as informações
+[15.04.01.03.02] permitir ao professor justificar faltas
+[15.04.01.03.03] permitir ao coordenador justificar faltas
+[15.04.01.04] notas de avaliação
+[15.04.01.04.01] permite ao coordenador do curso digitar notas de avaliação
+[15.04.01.05] notas de etapa
+[15.04.01.05.01] permite ao coordenador do curso digitar notas e faltas de etapa
+[15.04.01.06] cadastro de ocorrências
+[15.04.01.07] plano de aula
+[15.04.01.07.01] permite ao coordenador do curso digitar plano de aula
+[15.04.01.07.02] permite ao coordenador copiar o conteúdo previsto para o realizado
+[15.04.01.07.03] permite ao professor copiar o conteúdo previsto para o realizado
+[15.04.01.07.04] permite ao coordenador copiar o conteúdo previsto para as aulas em sequência
+[15.04.01.07.05] permite ao professor copiar o conteúdo previsto para as aulas em sequência
+[15.04.01.07.06] permite ao coordenador copiar o conteúdo previsto para a próxima aula
+[15.04.01.07.07] permite ao professor copiar o conteúdo previsto para a próxima aula
+[15.04.01.07.08] permite ao coordenador copiar o conteúdo para outra turma/disciplina
+[15.04.01.07.09] permite ao professor copiar o conteúdo para outra turma/disciplina
+[15.04.01.07.10] permite ao coordenador copiar o conteúdo realizado para as aulas em sequência
+[15.04.01.07.11] permite ao professor copiar o conteúdo realizado para as aulas em sequência
+[15.04.01.07.12] permite ao coordenador copiar o conteúdo realizado para a próxima aula
+[15.04.01.07.13] permite ao professor copiar o conteúdo realizado para a próxima aula
+[15.04.01.07.14] permite ao professor a alteração do tipo da aula
+[15.04.01.08] competências/habilidades
+[15.04.01.09] assinatura eletrônica
+[15.04.01.09.01] excluir documento
+[15.04.11] disponibilidade de horários
+[15.04.12] reserva de instalações
+[15.04.12.01] incluir reserva de intalação
+[15.04.12.02] excluir reserva de instalação
+[15.04.13] upload de materiais
+[15.04.13.01] incluir upload de material
+[15.04.13.02] excluir upload de material
+[15.04.13.03] editar upload de material
+[15.04.13.04] permitir à comissão coordenadora associar materiais
+[15.04.14] reserva de recursos
+[15.04.14.01] incluir reserva de recursos
+[15.04.14.02] excluir reserva de recursos
+[15.04.15] quadro de horários
+[15.04.16] liberar visualização da avaliação
+[15.04.16.01] permite ao coordenador do curso liberar visualização da avaliação
+[15.04.17] liberar visualização da etapa
+[15.04.17.01] permite ao coordenador do curso liberar visualização da etapa
+[15.04.18] aprovar frequência
+[15.04.19] aprovar ocorrências
+[15.04.20] encerrar etapa final
+[15.04.20.01] permite ao coordenador do curso encerrar etapa final
+[15.04.21] complemento de disciplinas
+[15.04.21.01] incluir complemento
+[15.04.21.02] excluir complemento
+[15.04.21.03] alterar complemento
+[15.04.22] estágio
+[15.04.22.01] plano de atividades
+[15.04.22.02] convites para orientação
+[15.04.22.03] avaliação final
+[15.04.22.04] banca
+[15.04.23] trabalho de conclusão de curso (tcc)
+[15.04.23.01] incluir novas bancas
+[15.04.23.02] consultar informações das bancas
+[15.04.23.03] alterar informações das bancas
+[15.04.23.04] sugerir participantes para as bancas
+[15.04.23.05] consultar participantes das bancas
+[15.04.23.06] excluir participantes das bancas
+[15.04.23.07] associar linhas de pesquisa aos professores
+[15.04.23.08] consultar linhas de pesquisa associadas aos professores
+[15.04.23.09] aprovas linhas de pesquisa associadas aos professores
+[15.04.23.10] excluir linhas de pesquisa associadas aos professores
+[15.04.23.11] aceitar ou recusar convites para orientação do tcc
+[15.04.23.12] consultar reuniões de acompanhamento do tcc
+[15.04.23.13] incluir reuniões de acompanhamento do tcc
+[15.04.23.14] excluir reuniões de acompanhamento do tcc
+[15.04.23.15] encerrar tcc
+[15.04.24] url's externas
+[15.04.25] digitação de frequência por turma
+[15.04.26] central de avisos
+[15.05] empresa
+[15.05.01] dados da empresa e funcionários
+[15.05.01.01] editar dados da empresa parceira
+[15.05.02] dados do funcionário
+[15.05.02.01] incluir funcionário da empresa parceira
+[15.05.02.02] excluir funcionário da empresa parceira
+[15.05.02.03] editar dados do funcionário da empresa parceira
+[15.05.02.04] editar dados apenas do funcionário da empresa parceira logado
+[15.05.03] estágio e emprego
+[15.05.03.01] vagas
+[15.05.03.02] plano de atividades
+[15.05.03.03] avaliação final
+[15.05.03.04] acompanhamento de inscritos
+[15.05.03.04.01] editar parecer dos candidatos inscritos
+[15.05.03.04.02] editar status dos candidatos inscritos
+[15.05.03.04.03] visualizar arquivos anexados do candidato inscrito
+[15.05.04] cursos da instituição
+[15.06] administração
+[15.06.01] tipos de materiais
+[15.06.01.01] incluir tipo de material
+[15.06.01.02] excluir tipo de material
+[15.06.01.03] editar tipo de material
+[15.06.02] upload de materiais
+[15.06.02.01] incluir upload de material
+[15.06.02.02] excluir upload de material
+[15.06.02.03] editar upload de material
+[15.07] avaliação institucional
+[15.08] relatórios
+[15.08.01] emitir relatórios
+[15.08.02] visualizar relatórios (gerador antigo)
+[15.09] biblioteca
+[15.09.01] pergamum
+[15.10] gestão educacional
+[15.10.01] central de atendimento
+[15.10.02] painel do aluno
+[15.10.02.01] visualizar dados de responsáveis
+[15.10.02.02] notas/faltas
+[15.10.02.03] financeiro
+[15.10.02.04] ficha médica
+[15.10.02.05] ocorrências
+[15.10.02.06] requerimentos
+[15.10.02.07] relatórios
+[15.10.02.08] documentos
+[15.10.11] gestão de ofertas
+[15.10.11.01] período letivo de planejamento
+[15.10.11.01.01] incluir período letivo de planejamento
+[15.10.11.01.03] editar período letivo de planejamento
+[15.10.11.02] planejamento da oferta
+[15.10.11.03] modelo de turmas
+[15.10.11.03.01] incluir modelo de turma do planejamento
+[15.10.11.03.03] editar modelo de turma do planejamento
+[15.10.11.04] executar demanda
+[15.10.11.05] visualizar demanda
+[15.10.11.05.01] criar turmas
+[15.10.11.07] gestão de turma
+[15.10.11.07.01] agrupar demanda
+[15.10.11.07.02] desagrupar demanda
+[15.10.11.07.03] realocar demanda
+[15.10.11.07.04] desalocar demanda
+[15.10.11.07.05] adicionar gerencial/gerenciada
+[15.10.11.07.06] remover gerencial/gerenciada
+[15.10.11.07.07] alterar capacidade
+[15.10.11.07.08] desalocar turmas
+[15.10.11.07.09] editar detalhes da turma
+[15.10.11.16] alocação de professores
+[15.10.11.17] gerar oferta
+[15.10.11.18] adicionar disciplinas
+[15.10.11.19] visualizar planejamento
+[15.10.11.20] subturmas
+[15.10.11.20.01] adicionar subturmas
+[15.10.11.20.02] remover subturmas
+[03.06.01.04] validação e atualização do período
+[15.10.11.01.02] excluir período letivo de planejamento
+[15.10.11.03.02] excluir modelo de turma do planejamento
+[01.02.01.04.05.03] editar parâmetros da habilitação por filial

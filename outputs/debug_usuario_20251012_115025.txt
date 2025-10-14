@@ -1,0 +1,832 @@
+[01] administração de pessoal
+[01.01] cadastros
+[01.01.01] funcionários
+[01.01.01.01] salário composto
+[01.01.01.01.01] salário composto: visualizar
+[01.01.01.02] anotações pessoais
+[01.01.01.02.01] anotações pessoais: visualizar
+[01.01.01.03] endereço complementar
+[01.01.01.03.01] endereço complementar: visualizar
+[01.01.01.04] códigos fixos
+[01.01.01.04.01] códigos fixos: visualizar
+[01.01.01.05] eventos programados
+[01.01.01.05.01] eventos programados: visualizar
+[01.01.01.06] rateios fixos
+[01.01.01.06.01] rateios fixos: visualizar
+[01.01.01.06.04] rateios fixos: editar
+[01.01.01.07] valores associados
+[01.01.01.07.01] valores associados: visualizar
+[01.01.01.08] estabilidade
+[01.01.01.08.01] estabilidade: visualizar
+[01.01.01.09] vínculos empregatícios com outras empresas
+[01.01.01.09.01] vínculos empregatícios com outras empresas: visualizar
+[01.01.01.10] processos jurídicos do funcionário
+[01.01.01.10.01] processos jurídicos do funcionário: visualizar
+[01.01.01.11] dados do residente ou domiciliado exterior
+[01.01.01.11.01] dados do residente ou domiciliado exterior: visualizar
+[01.01.01.12] observações contratuais
+[01.01.01.12.01] observações contratuais: visualizar
+[01.01.01.13] alteração cpf para esocial: visualizar
+[01.01.01.14] distribuição de margem consignável
+[01.01.01.14.01] distribuição de margem consignável: visualizar
+[01.01.01.15] dados do benefício
+[01.01.01.15.01] dados do benefício: visualizar
+[01.01.01.16] ficha financeira
+[01.01.01.16.01] ficha financeira (ctrl + i): visualizar
+[01.01.01.16.03] ficha financeira : excluir
+[01.01.01.17] férias
+[01.01.01.17.01] férias (ctrl + f): visualizar
+[01.01.01.17.07] histórico de férias: editar
+[01.01.01.18] recibo de férias
+[01.01.01.18.01] recibo de férias: visualizar
+[01.01.01.19] adicionais férias
+[01.01.01.19.01] adicionais de férias: visualizar
+[01.01.01.20] resilição
+[01.01.01.20.01] resilição: visualizar
+[01.01.01.20.02] resilição: incluir
+[01.01.01.20.03] resilição: excluir
+[01.01.01.20.04] resilição: editar
+[01.01.01.20.05] resilição: calcular
+[01.01.01.21] movimento resilição
+[01.01.01.21.01] movimento resilição: visualizar
+[01.01.01.21.05] verbas rescisóriasresilição: visualizar
+[01.01.01.22] convocação
+[01.01.01.22.01] convocação: visualizar
+[01.01.01.23] tomadores serviço
+[01.01.01.23.01] tomador de serviço: visualizar
+[01.01.01.24] controle de faltas
+[01.01.01.24.01] controle de faltas: visualizar
+[01.01.01.25] exame toxicológico
+[01.01.01.25.01] exame toxicológico: visualizar
+[01.01.01.26] exames médicos
+[01.01.01.26.01] exames médicos : visualizar
+[01.01.01.27] condições diferenciadas de trabalho
+[01.01.01.27.01] condições diferenciadas de trabalho - visualizar
+[01.01.01.28] prestação de serviço em terceiros
+[01.01.01.28.01] prestação de serviço em terceiros: visualizar
+[01.01.01.30] dependentes
+[01.01.01.30.01] dependentes: visualizar
+[01.01.01.31] dependentes: eventos da pensão
+[01.01.01.31.01] dependentes: visualizar eventos da pensão
+[01.01.01.32] dependentes: movimentação da pensão
+[01.01.01.32.01] dependentes: visualizar movimentação da pensão
+[01.01.01.33] histórico dependentes
+[01.01.01.33.01] histórico dependentes: visualizar
+[01.01.01.34] histórico horário
+[01.01.01.34.01] histórico horário: visualizar
+[01.01.01.35] histórico empréstimo
+[01.01.01.35.01] histórico empréstimo: visualizar
+[01.01.01.36] histórico suspensão benefício
+[01.01.01.36.01] histórico suspensão benefício: visualizar
+[01.01.01.37] histórico de ocorrências do trabalhador rural
+[01.01.01.37.01] histórico de ocorrências do trabalhador rural: visualizar
+[01.01.01.38] histórico situação
+[01.01.01.38.01] histórico situação: visualizar
+[01.01.01.39] histórico afastamento
+[01.01.01.39.01] histórico afastamento: visualizar
+[01.01.01.40] histórico contribuição
+[01.01.01.40.01] histórico contribuição: visualizar
+[01.01.01.41] histórico seção
+[01.01.01.41.01] histórico seção: visualizar
+[01.01.01.42] histórico salarial
+[01.01.01.42.01] histórico salarial: visualizar
+[01.01.01.43] histórico dados cadastrais futuro
+[01.01.01.43.01] histórico dados cadastrais futuro: visualizar
+[01.01.01.44] histórico função
+[01.01.01.44.01] histórico função: visualizar
+[01.01.01.45] histórico vale transporte
+[01.01.01.45.01] histórico vale transporte: visualizar
+[01.01.01.46] histórico ocorrências sefip
+[01.01.01.46.01] histórico ocorrências sefip: visualizar
+[01.01.01.47] histórico de dados bancários
+[01.01.01.47.01] histórico de dados bancários: visualizar
+[01.01.01.48] histórico de endereços
+[01.01.01.48.01] histórico de endereços: visualizar
+[01.01.01.49] histórico de transferência: visualizar
+[01.01.01.50] histórico rra
+[01.01.01.50.01] histórico rra : visualizar
+[01.01.01.51] histórico assistência saúde
+[01.01.01.51.01] histórico assistência saúde: visualizar
+[01.01.01.52] histórico função de confiança/cargo em comissão
+[01.01.01.52.01] histórico função de confiança/cargo em comissão: visualizar
+[01.01.01.53] histórico indicador de contribuição substituída
+[01.01.01.53.01] histórico indicador de contribuição substituída: visualizar
+[01.01.01.54] histórico categoria esocial
+[01.01.01.54.01] histórico categoria esocial: visualizar
+[01.01.01.55] histórico de tipo de recebimento
+[01.01.01.55.01] histórico de tipo de recebimento: visualizar
+[01.01.01.56] histórico de tipo do funcionário
+[01.01.01.56.01] histórico de tipo do funcionário: visualizar
+[01.01.01.57] histórico do benefício extraordinário mensal b.e.m
+[01.01.01.57.01] histórico do benefício extraordinário mensal b.e.m: visualizar
+[01.01.01.58] histórico tipo de regime da jornada
+[01.01.01.58.01] histórico tipo de regime da jornada: visualizar
+[01.01.01.59] histórico estatutário
+[01.01.01.59.01] histórico estatutário: visualizar
+[01.01.01.60] histórico utiliza ponto ahgora
+[01.01.01.60.01] histórico utiliza ponto ahgora: visualizar
+[01.01.01.61] processos
+[01.01.01.61.01] gráfico salarial
+[01.01.01.66] funcionário: listar/imprimir
+[01.01.01.67] filtro de funcionários: inserir
+[01.01.01.68] filtro de funcionários: editar
+[01.01.01.69] filtro de funcionários: excluir
+[01.01.01.70] ficha financeira complementar: visualizar
+[01.01.01.72] aviso prévio trabalhado: visualizar
+[01.01.01.73] rescisão (ctrl + r): visualizar
+[01.01.01.74] envelope (ctrl + e): visualizar
+[01.01.01.75] alterar valor do vale transporte
+[01.01.01.76] rm portal: alterar grupo de acesso
+[01.01.01.79] visualizar relatórios
+[01.01.01.80] visualizar relatórios: férias
+[01.01.01.81] visualizar relatórios: rescisão
+[01.01.01.82] pendências demissionais: visualizar
+[01.01.01.83] enviar e-mails para funcionários
+[01.01.01.84] envelope recibo de férias
+[01.01.103] vale-transporte
+[01.01.103.01] alteração de dias úteis
+[01.01.103.02] linhas de transporte
+[01.01.103.02.04] trocar o código da linha
+[01.01.103.02.05] linhatransp:copiar registros entre coligadas
+[01.01.103.03] tarifas de transporte
+[01.01.103.03.04] tarifa: copiar registros entre coligadas
+[01.01.108] cliente e fornecedor
+[01.01.108.04] alteração global de clientes / fornecedores
+[01.01.108.05] imprimir relatório simplificado de clientes / fornecedores
+[01.01.108.06] acessar clientes
+[01.01.108.07] acessar fornecedores
+[01.01.108.10] filtro de clientes/fornecedores: inserir
+[01.01.109] eventos
+[01.01.109.01] eventos
+[01.01.109.01.04] evento: listar/imprimir
+[01.01.109.01.07] médias em cadastro de eventos: listar/imprimir
+[01.01.109.01.10] base salário composto: listar/imprimir
+[01.01.109.01.11] evento:copiar registros entre coligadas
+[01.01.109.02] rateio de evento
+[01.01.109.02.07] rateios:copiar registros entre coligadas
+[01.01.112] fórmulas
+[01.01.112.01] inserir nova fórmula
+[01.01.112.03] alterar fórmula
+[01.01.113] horários
+[01.01.114] seções
+[01.01.114.01] valores associados
+[01.01.114.01.04] valores associados: listar/imprimir
+[01.01.114.03] cnpj de entidades educacionais
+[01.01.114.03.01] executar cnpj
+[01.01.114.04] processo judicial de terceiros/outras entidades
+[01.01.114.04.01] executar
+[01.01.114.05] informações sobre segurança e saúde no trabalho
+[01.01.114.05.01] informações sobre segurança e saúde no trabalho: exibir
+[01.01.114.06] contribuição sindical
+[01.01.114.06.01] executar contribuição sindical
+[01.01.114.07] histórico de percentuais para inss
+[01.01.114.07.01] histórico de percentuais para inss: executar
+[01.01.114.08] fap por estabelecimento emprasarial
+[01.01.114.08.04] fap por estabelecimento emprasarial: listar/imprimir
+[01.01.114.12] seções: listar/imprimir
+[01.01.114.14] seções: filtrar
+[01.01.114.15] filtro de seções: inserir
+[01.01.114.18] informações sobre controle de lotação
+[01.01.114.19] funcionários lotados na seção .
+[01.01.114.20] funcionários lotados : listar/imprimir
+[01.01.123] sindicatos
+[01.01.123.04] histórico salário mínimo
+[01.01.123.04.01] histórico salário mínimo: visualizar
+[01.01.123.08] sindicato:copiar registros entre coligadas
+[01.01.128] envelope
+[01.01.129] filtros globais entre usuários
+[01.01.64] registro preliminar
+[01.01.64.01] registro preliminar - visualizar
+[01.01.65] cadastros globais
+[01.01.65.01] coligadas
+[01.01.65.02] filiais
+[01.01.65.03] departamentos
+[01.01.65.04] calendários
+[01.01.65.05] moedas e índices
+[01.01.65.06] cotações
+[01.01.65.07] bancos/agências
+[01.01.65.08] tabelas dinâmicas
+[01.01.65.08.01] nova tabela dinâmica
+[01.01.65.08.04] copiar tabelas dinâmicas entre coligadas
+[01.01.74] cálculos
+[01.01.74.01] tabelas de cálculo
+[01.01.74.01.04] tabelas de cálculo: cópia de múltiplos registros
+[01.01.74.01.08] tabelas de cálculo: copiar registros entre coligadas
+[01.01.74.01.09] tabelas de cálculo: filtrar
+[01.01.74.02] valores fixos
+[01.01.74.02.04] valores fixos: listar/imprimir
+[01.01.74.02.05] valfixo:copiar registros entre coligadas
+[01.01.77] campos complementares
+[01.01.77.01] funcionários
+[01.01.77.02] dependentes
+[01.01.77.03] cliente e fornecedor
+[01.01.77.04] seções
+[01.01.82] cargos/funções
+[01.01.82.01] cargos
+[01.01.82.01.04] cargos:copiar registros entre coligadas
+[01.01.82.02] funções
+[01.01.82.02.04] funções: listar/imprimir
+[01.01.82.02.05] funções:copiar registros entre coligadas
+[01.01.82.02.06] funcionários que exercem a função
+[01.01.82.02.10] informações sobre controle de lotação
+[01.01.82.02.11] seções que possuem a função
+[01.01.82.03] níveis
+[01.01.82.04] faixas
+[01.01.82.05] g. ocupacionais
+[01.01.88] centros custos
+[01.01.88.04] importar estrutura de centros de custos global para o rm labore
+[01.01.88.05] sincronizar centros de custos global com centros de custos do rm labore
+[01.01.88.06] copiar centro de custo entre coligadas
+[01.01.89] chefes e supervisores
+[01.01.89.01] chefes e supervisores
+[01.01.89.02] externo
+[01.01.89.03] substituição de chefes e supervisores
+[01.01.93] exames
+[01.01.93.01] profissional de saúde
+[01.01.93.02] exames
+[01.01.93.02.04] cópia entre coligadas
+[01.01.93.03] entidades (laboratórios)
+[01.01.93.03.04] visualizar
+[01.01.93.04] convênios
+[01.01.93.04.04] cópia entre coligadas
+[01.01.93.04.05] gerar horário para convênio
+[01.01.93.05] parâmetros sso
+[01.01.93.06] grupos de entidades
+[01.01.93.07] órgão de classe
+[01.01.93.08] áreas de atuação
+[01.02] controle de convênios
+[01.02.01] cadastros
+[01.02.01.01] convênios
+[01.02.01.01.04] visualizar
+[01.02.01.02] serviços do convênio
+[01.02.01.02.04] visualizar
+[01.02.01.03] parâmetros do convênio
+[01.02.01.03.04] visualizar
+[01.02.01.04] períodos do convênio
+[01.02.01.04.04] visualizar
+[01.02.06] movimento
+[01.02.06.01] movimentação dos funcionários
+[01.02.06.01.02] visualizar
+[01.03] alterações globais
+[01.03.01] alterações cadastrais
+[01.03.01.10] importação de fotos
+[01.03.01.11] alteração dados do inss da seção
+[01.03.14] requisições
+[01.03.14.01] efetivar transferência
+[01.03.14.02] efetivar alteração de dados funcionais
+[01.03.14.03] efetivar transferência com alterações de dados funcionais
+[01.03.14.04] efetivar transferência em lote
+[01.04] relatórios
+[01.04.01] relatórios
+[01.04.01.01] relatórios do funcionário
+[01.05] performance e metas / feedz
+[01.05.01] totvs rh performance e metas / feedz
+[01.06] ahgora
+[02] folha mensal
+[02.01] processos
+[02.01.05] lançamentos
+[02.01.05.01] grupo de eventos
+[02.01.05.01.08] seleção de funcionários
+[02.01.05.03] cálculo de benefícios de funcionários
+[02.01.05.08] gerar compra de vale transporte
+[02.01.05.08.02] histórico compra vale transporte: excluir
+[02.01.25] consulta
+[02.01.25.01] consulta movimento da integração
+[02.01.25.02] gerenciador de log de cálculo
+[02.01.25.03] gerenciador de logs complementares
+[02.01.25.03.01] mover para logs complementares
+[02.01.25.03.02] visualizar logs de funcionários
+[02.01.25.03.03] remover logs complementares
+[02.01.25.04] múltiplos vínculos que necessitam recálculo
+[02.01.36] gerenciador de movimento
+[02.01.36.03] consulta
+[02.01.36.05] histórico de alterações
+[02.03] relatórios
+[02.05] encerramento da folha
+[02.05.02] validações
+[02.05.02.01] validação da liberação de competência
+[02.05.02.02] validação da base de dados
+[02.06] consignado
+[02.06.01] integração totvs consignado
+[02.06.02] ativação de convênio totvs consignado
+[02.07] controle de benefícios (totvs gestão de pessoas)
+[02.07.01] processos
+[02.07.01.01] vinculação de benefícios
+[02.07.01.02] lançamento de benefícios
+[03] folha educacional
+[03.01] cadastros auxiliares
+[03.01.01] cadastros
+[03.01.01.01] período letivo
+[03.01.01.02] turmas
+[03.01.01.03] atividades extras
+[03.01.01.04] disciplinas
+[03.01.01.05] função de professor
+[03.01.07] associação de eventos
+[03.01.07.01] grupo de atividades
+[03.01.07.02] disciplinas
+[03.01.07.02.04] importar estrutura de centros de custos global para o rm labore
+[03.03] consultas
+[03.03.01] consultas
+[03.03.01.01] composição salarial
+[03.03.01.01.01] atividade remunerada: inserir
+[03.03.01.01.02] atividade remunerada: remover
+[03.03.01.01.03] atividade remunerada: editar
+[03.03.01.02] consulta movimento de ensino calculado
+[03.03.01.03] consulta movimento de ensino importado
+[03.03.01.03.01] consulta movimento de ensino importado: incluir
+[03.03.01.03.02] consulta movimento de ensino importado: excluir
+[03.03.01.03.03] consulta movimento de ensino importado: editar
+[03.03.01.04] consulta resilição do movimento de ensino importado
+[03.03.01.04.01] resilição do movimento de ensino importado: incluir
+[03.03.01.04.02] resilição do movimento de ensino importado: editar
+[03.03.01.04.03] resilição do movimento de ensino importado: excluir
+[03.03.01.04.04] resilição do movimento de ensino importado: visualizar
+[03.03.01.05] log do movimento de ensino
+[05] férias
+[05.02] relatórios
+[06] rescisão
+[06.01] rescisão
+[06.01.01] cadastro global
+[06.01.03] aviso prévio coletivo
+[06.01.09] restrições cadastrais
+[06.01.09.04] visualizar
+[06.01.12] ações após transferência
+[06.02] resilição
+[06.02.02] tipos de resilição
+[06.02.02.04] tipos de resilição: visualizar
+[06.03] relatórios
+[06.03.01] grfc/grrf
+[06.03.02] passivo trabalhista
+[06.03.02.01] geração passivo trabalhista
+[06.03.02.02] consulta movimento passivo trabalhista
+[06.03.05] trct
+[06.03.05.01] portaria 1621/2010
+[06.03.05.02] resilição
+[06.03.08] seguro desemprego
+[07] encargos
+[07.01] recolhimento
+[07.01.01] guia de inss
+[07.01.01.03] parâmetros da guia de inss desoneração
+[07.02] fgts
+[07.02.01] parâmetros sefip
+[07.02.01.01] inserir seções
+[07.02.01.02] editar seção
+[07.02.01.03] excluir seção
+[07.02.01.04] visualizar tomadores
+[07.02.01.05] inserir tomador
+[07.02.01.06] editar tomador
+[07.02.01.07] excluir tomador
+[07.02.01.08] listar/imprimir tomador
+[07.02.01.09] inserir tomadores do cadastro funcionários
+[07.04] contabilização
+[07.04.11] históricos
+[07.04.11.01] provisões
+[07.04.11.01.01] histórico de provisões: visualizar
+[07.04.11.01.05] histórico de provisões: filtrar
+[07.04.11.01.09] histórico de provisões: imprimir
+[07.04.11.02] encargos
+[07.04.11.02.04] histórico de encargos: filtrar
+[07.04.11.02.11] histórico de encargos: imprimir
+[07.04.11.02.12] rateio de histórico de encargos: imprimir
+[07.04.14] lançamentos
+[07.04.14.01] lançamentos (folha de pagamento)
+[07.04.14.01.01] lançamentos contábeis (rmlabore) - visualizar
+[07.04.14.02] lançamentos (gestão contábil)
+[07.05] financeiro
+[07.05.04] geração dos lançamentos
+[07.05.05] lançamentos
+[07.05.05.01] lançamentos (gestão financeira)
+[07.06] relatórios
+[07.06.01] relatórios
+[08] anuais
+[08.01] rotinas
+[08.01.01] rais
+[08.01.02] dirf/informe de rendimentos
+[08.01.02.01] dirf/informe de rendimentos
+[08.01.02.04] conversão de operadora perfil x cadastro
+[09] esocial
+[09.01] cadastros
+[09.01.01] software house
+[09.01.01.04] visualizar
+[09.01.02] informações do empregador
+[09.01.02.04] visualizar
+[09.01.11] operadora saúde
+[09.01.11.01] cadastro operadoras de saúde
+[09.01.11.01.04] visualizar
+[09.01.11.02] conversor perfil dirf x operadora esocial
+[09.01.15] previdência complementar
+[09.01.15.01] cadastro previdência complementar
+[09.01.15.01.04] visualizar
+[09.01.19] lotação tributária
+[09.01.19.01] visualizar
+[09.01.20] fila de eventos complementar
+[09.01.20.01] transferência manual da fila de eventos do esocial
+[09.01.20.02] restauração da fila de eventos do esocial
+[09.01.23] certificado digital
+[09.01.23.01] excluir
+[09.01.23.02] editar
+[09.01.23.03] importar certificado digital
+[09.02] saneamento de dados
+[09.02.01] preencher categoria esocial
+[09.02.02] validador da base de dados
+[09.02.03] preencher matrícula esocial
+[09.02.04] qualificação cadastral
+[09.03] eventos de tabelas/não periódicos
+[09.03.01] gerar gatilhos eventos iniciais
+[09.03.02] fila de eventos
+[09.03.02.01] incluir
+[09.03.02.02] excluir
+[09.03.02.03] editar
+[09.03.02.04] visualizar
+[09.03.02.05] gerar evento de exclusão
+[09.03.02.06] excluir evento da fila
+[09.03.02.07] validar 1200 com envelope
+[09.03.02.08] gerar retificação arquivo esocial
+[09.03.02.09] editar xml
+[09.03.02.10] histórico edição xml esocial
+[09.04] eventos periódicos
+[09.04.01] período de apuração
+[09.04.01.01] incluir
+[09.04.01.02] excluir
+[09.04.01.03] editar
+[09.04.01.04] visualizar
+[09.04.01.05] remuneração trabalhadores avulsos não portuários
+[09.04.01.05.01] incluir
+[09.04.01.05.02] excluir
+[09.04.01.05.03] editar
+[09.04.03] eventos periódicos
+[09.04.03.01] incluir
+[09.04.03.02] excluir
+[09.04.03.03] editar
+[09.04.03.04] visualizar
+[09.05] processos
+[09.05.02] atualizar status
+[09.05.03] exportar xml
+[09.05.11] ativar integração com middleware
+[09.05.13] comparativo de incidências de rubricas
+[09.06] relatórios
+[09.06.01] conferência inss/fgts/irrf
+[09.06.02] conferência inss patronal
+[10] orçamento (beta)
+[10.01] cadastros
+[10.01.01] perfil de admissão
+[10.01.01.04] visualizar
+[10.01.01.05] eventos fixos - perfil de custo
+[10.01.02] lotação
+[10.01.02.04] visualizar
+[10.01.03] campos complementares
+[10.01.04] itens de orçamento
+[10.01.04.04] visualizar
+[10.02] cálculo
+[10.02.01] dados do orçamento
+[10.02.01.04] visualizar
+[10.02.02] quadro de vagas
+[10.03] análise dos resultados
+[10.03.01] análise do orçamento
+[10.03.01.02] análise headcount previsto x realizado
+[10.04] relatórios
+[10.04.01] relatórios
+[10.04.02] quadro de vagas
+[11] configurações
+[11.01] parâmetros
+[11.01.01] parametrizador
+[11.01.01.01] rmlabore: copiar registros entre coligadas
+[11.01.02] locais
+[11.01.03] filtros do rm portal
+[11.01.04] copiar parâmetros entre coligadas
+[11.02] comunicação
+[11.02.01] log de integração
+[11.02.02] avisos automáticos
+[11.02.02.01] avisos automáticos: editar
+[11.02.02.02] avisos automáticos: inserir
+[11.02.02.03] avisos automáticos: excluir
+[11.02.03] visualizar parâmetros de job
+[11.02.04] enviar e-mails para funcionários
+[11.02.04.01] opção de envio : mensagem livre
+[11.02.05] mensagens customizadas
+[11.02.05.01] incluir e-mail customizado
+[11.02.05.02] excluir e-mail customizado
+[11.02.05.03] editar e-mail customizado
+[11.03.01] gatilho envelope de pagamento
+[11.03.02] gestão de comunicados
+[11.03.02.01] incluir novo comunicado rh
+[11.03.02.02] apagar comunicado rh
+[11.03.02.03] inativar comunicado rh
+[11.03.02.04] reenviar comunicado rh
+[11.03.07] log das mensagens enviadas
+[11.03.07.01] excluir
+[11.03.08] token do dispositivo dos usuários
+[11.03.08.01] excluir
+[11.03.09] comunicados do colaborador
+[11.03.09.01] excluir
+[11.03.10] limpeza de dados
+[11.04] importação
+[11.04.01] importações
+[11.04.01.01] importação de dados da folha de pagamento
+[11.05] customizações
+[11.05.01] importação do sap
+[11.05.02] importação mims
+[11.06] diagramas
+[11.06.01] menu em forma de diagrama: inserir
+[11.06.02] menu em forma de diagrama: excluir
+[11.06.03] menu em forma de diagrama: editar
+[11.07] conversão
+[11.07.01] conversão de perfis (delphi x .net)
+[11.07.02] conversor contribuição sindical
+[11.07.03] conversor histórico rateio tomador
+[11.08] reestruturação
+[11.08.01] cadastro de proposta: incluir
+[11.08.02] cadastro de proposta: excluir
+[11.08.03] cadastro de proposta: editar
+[11.08.04] cadastro de proposta: visualizar
+[11.08.05] executar - realocação de pessoal
+[11.08.06] executar - reimplantação da estrutura de seções
+[11.08.07] executar - alteração do código das seções
+[11.08.08] configurar - realocação de pessoal
+[11.08.09] configurar - reimplantação da estrutura de seções
+[11.08.10] configurar - reimplantação da estrutura de seções - incluir seção
+[11.08.11] configurar - reimplantação da estrutura de seções - excluir seção
+[11.08.12] configurar - reimplantação da estrutura de seções - editar seção
+[11.08.13] atualizar status - realocação de pessoal
+[11.08.14] atualizar status - reimplantação da estrutura de seções
+[11.08.15] atualizar status - alteração do código das seções
+[11.09] histórico salarial
+[11.09.01] ajustar histórico salarial (composto)
+[12] ppe
+[12.01] cadastro
+[12.01.01] cadastros
+[12.01.01.01] eventos compõe valor função
+[12.01.01.01.01] incluir
+[12.01.01.01.02] excluir
+[12.01.01.01.03] editar
+[12.01.01.01.04] visualizar
+[12.01.01.02] eventos compõe valor complemento
+[12.01.01.02.01] incluir
+[12.01.01.02.02] excluir
+[12.01.01.02.03] editar
+[12.01.01.02.04] visualizar
+[12.01.01.03] motivos admissão totvs x ppe
+[12.01.01.03.01] incluir
+[12.01.01.03.02] excluir
+[12.01.01.03.03] editar
+[12.01.01.03.04] visualizar
+[12.01.01.04] motivos afastamento totvs x ppe
+[12.01.01.04.01] incluir
+[12.01.01.04.02] excluir
+[12.01.01.04.03] editar
+[12.01.01.04.04] visualizar
+[12.01.01.05] motivos demissão totvs x ppe
+[12.01.01.05.01] incluir
+[12.01.01.05.02] excluir
+[12.01.01.05.03] editar
+[12.01.01.05.04] visualizar
+[12.01.01.06] dispêndio
+[12.01.01.06.01] incluir
+[12.01.01.06.02] excluir
+[12.01.01.06.03] editar
+[12.01.01.06.04] visualizar
+[12.01.01.07] lançamento manual de dispêndio
+[12.01.01.07.01] incluir
+[12.01.01.07.02] excluir
+[12.01.01.07.03] editar
+[12.01.01.07.04] visualizar
+[12.02] processo
+[12.02.01] perfil de pessoal das estatais
+[13] desconsiderar filtro de produto em webservice
+[14] assinatura eletrônica
+[14.01] monitoramento
+[14.01.01] monitor de relatórios
+[14.01.02] atualizar status de relatórios
+[14.01.03] processo de aprovação de documentos para assinatura
+[14.01.04] processo de exclusão de documentos integrados
+[14.02] integração
+[14.02.01] tipos de relatórios
+[14.02.01.01] tipo de relatório: inserir
+[14.02.01.02] tipo de relatório: editar
+[14.02.01.03] tipo de relatório: excluir
+[14.02.02] processo de integração de relatorios
+[15] customização
+[15.01] customização
+[15.01.05] notas - plr
+[15.01.05.01] incluir notas - plr
+[15.01.05.02] excluir notas - plr
+[15.01.05.03] editar notas - plr
+[15.01.05.04] definir leiaute
+[15.01.06] notas x relatorios plr
+[15.01.06.01] incluir notas x relatorios plr
+[15.01.06.02] excluir notas x relatorios plr
+[15.01.06.03] editar notas x relatorios plr
+[15.01.06.04] definir leiaute
+[15.01.07] depara de função
+[15.01.07.01] incluir depara de função
+[15.01.07.02] excluir depara de função
+[15.01.07.03] editar depara de função
+[15.01.07.04] definir leiaute
+[15.01.09] filiais da função plr
+[15.01.09.01] incluir filiais da função plr
+[15.01.09.02] excluir filiais da função plr
+[15.01.09.03] editar filiais da função plr
+[15.01.09.04] definir leiaute
+[15.01.10] coligadas - filiais por paramêtros plr
+[15.01.10.01] incluir coligadas - filiais por paramêtros plr
+[15.01.10.02] excluir coligadas - filiais por paramêtros plr
+[15.01.10.03] editar coligadas - filiais por paramêtros plr
+[15.01.10.04] definir leiaute
+[15.01.11] pagamento plr
+[15.01.11.01] incluir pagamento plr
+[15.01.11.02] excluir pagamento plr
+[15.01.11.03] editar pagamento plr
+[15.01.11.04] definir leiaute
+[15.01.13] parâmetros da plr_v2
+[15.01.13.01] incluir parâmetros da plr_v2
+[15.01.13.02] excluir parâmetros da plr_v2
+[15.01.13.03] editar parâmetros da plr_v2
+[15.01.13.04] definir leiaute
+[15.01.14] parâmetros de plr - função
+[15.01.14.01] incluir parâmetros de plr - função
+[15.01.14.02] excluir parâmetros de plr - função
+[15.01.14.03] editar parâmetros de plr - função
+[15.01.14.04] definir leiaute
+[15.01.15] parametros de pagamento plr
+[15.01.15.01] incluir parametros de pagamento plr
+[15.01.15.02] excluir parametros de pagamento plr
+[15.01.15.03] editar parametros de pagamento plr
+[15.01.15.04] definir leiaute
+[15.01.16] acessos a info. cubos salários
+[15.01.16.01] incluir acessos a info. cubos salários
+[15.01.16.02] excluir acessos a info. cubos salários
+[15.01.16.03] editar acessos a info. cubos salários
+[15.01.16.04] definir leiaute
+[15.01.17] calculo vale transporte
+[15.01.17.01] incluir calculo vale transporte
+[15.01.17.02] excluir calculo vale transporte
+[15.01.17.03] editar calculo vale transporte
+[15.01.17.04] definir leiaute
+[16] gestão
+[16.01] utilitários
+[16.01.01] calculadora
+[16.01.02] agenda
+[16.01.02.01] inserir compromisso
+[16.01.02.02] remover compromisso
+[16.01.02.03] editar compromisso
+[16.01.03] totvs compartilhamento
+[16.02] ferramentas de análise
+[16.02.01] cubo
+[16.02.01.01] cadastro de cubos
+[16.02.01.01.01] inserir cubo
+[16.02.01.01.02] excluir cubo
+[16.02.01.01.03] editar cubo
+[16.02.01.02] excluir cubo
+[16.02.01.03] alterar cubo
+[16.02.01.04] visualizar cubo
+[16.02.01.05] atualizar cubo
+[16.02.01.06] exportar cubo para visualizador de cubos (cubx)
+[16.02.01.07] exportar cubo para documento (xls, pdf, rtf, etc)
+[16.02.01.08] imprimir cubo
+[16.02.01.09] salvar gráfico
+[16.02.03] planilha net
+[16.02.03.01] incluir planilha net
+[16.02.03.02] excluir planilha net
+[16.02.03.03] editar planilha net
+[16.02.03.04] configurar parâmetro de recálculo automático na inicialização
+[16.02.03.05] habilitar botão salvar
+[16.02.03.06] habilitar botão salvar como excel na planilha rm
+[16.02.03.07] converter planilha excel para planilha rm
+[16.02.03.08] reexecutar consulta sql da celula
+[16.02.03.09] visualizar consulta sql da celula
+[16.02.03.10] associar consulta sql à célula
+[16.02.03.11] desassociar consulta sql da célula
+[16.02.03.12] ordem de execução das consultas sql da planílha
+[16.02.03.13] reexecutar as consultas sql de todas as planilhas
+[16.02.03.14] reexecutar as consultas sql planilha atual
+[16.02.03.15] recalcular automaticamente
+[16.02.03.16] associar variável a célula
+[16.02.03.17] adicionar gráfico
+[16.02.03.18] remover gráfico
+[16.02.03.19] editar grafico
+[16.02.04] fórmula visual
+[16.02.04.01] atividades
+[16.02.04.01.01] incluir atividades
+[16.02.04.01.02] excluir atividades
+[16.02.04.01.03] editar atividades
+[16.02.04.02] categorias
+[16.02.04.02.01] incluir categorias
+[16.02.04.02.02] excluir categorias
+[16.02.04.02.03] editar categorias
+[16.02.04.03] fórmula visual
+[16.02.04.03.01] incluir fórmula visual
+[16.02.04.03.02] excluir fórmula visual
+[16.02.04.03.03] editar fórmula visual
+[16.02.04.03.04] executar fórmula visual
+[16.02.08] smart view
+[16.02.08.01] inserir recurso
+[16.02.08.02] excluir recurso
+[16.02.08.03] editar recurso
+[16.02.08.04] processos
+[16.02.08.04.01] importar recurso
+[16.02.08.04.02] exportar recurso
+[16.02.09] acelerador de migração
+[16.02.10] rm reports
+[16.02.10.01] inserir relatório
+[16.02.10.02] excluir relatório
+[16.02.10.03] editar relatório
+[16.02.10.04] processos
+[16.02.10.04.01] copiar relatórios
+[16.02.10.04.02] editar estrutura
+[16.02.10.04.03] importar relatórios
+[16.02.10.04.04] exportar relatórios
+[16.02.10.04.05] gerar relatórios
+[16.02.11] visões de dados
+[16.02.11.01] incluir consultas sql
+[16.02.11.02] excluir consultas sql
+[16.02.11.03] editar consultas sql
+[16.02.12] painéis de cenários
+[16.02.12.01] inserir novo rmpart
+[16.02.12.02] renomear guia
+[16.02.12.03] deletar guia
+[16.02.12.04] exportar cenário
+[16.02.12.05] importar cenário
+[16.02.12.06] alterar parâmetros
+[16.02.13] gerador de saída
+[16.02.13.01] executar
+[16.02.13.02] incluir layout
+[16.02.13.03] excluir layout
+[16.02.13.04] alterar layout
+[16.02.13.05] importar layout
+[16.02.13.06] exportar layout
+[16.03] gráficos
+[16.03.01] gráfico
+[16.03.01.01] incluir gráficos
+[16.03.01.02] excluir gráficos
+[16.03.01.03] editar gráficos
+[16.03.01.04] visualizar gráficos
+[16.03.02] categorias
+[16.03.02.01] incluir categorias de gráficos
+[16.03.02.02] excluir categorias de gráficos
+[16.03.02.03] editar categorias de gráficos
+[16.03.03] fontes de gráficos
+[16.04] rss
+[16.04.01] leitor rss
+[16.04.01.01] receber e-mails de novos feeds
+[16.04.02] iniciar serviço
+[16.04.03] configuração
+[16.04.05] meus canais
+[16.05] rm conector
+[16.05.01] rm conector
+[16.05.01.01] exportação
+[16.05.01.02] importação
+[16.05.01.03] gerenciamento
+[16.06] comunicação
+[16.06.01] aplicativos externos
+[16.06.01.01] inserir aplicativo externo
+[16.06.01.02] remover aplicativo externo
+[16.06.01.03] editar aplicativo externo
+[16.06.01.04] customizar aplicativo externo
+[16.06.01.05] gerenciamento de correspondências entre rm e provedores
+[16.06.02] aplicativos saml
+[16.06.02.01] inserir aplicativos saml
+[16.06.02.02] remover aplicativos saml
+[16.06.02.03] editar aplicativos saml
+[17] ambiente
+[17.01] processos
+[17.01.01] gerenciamento de jobs
+[17.01.01.01] iniciar servidor
+[17.01.01.02] interromper servidor
+[17.01.01.03] finalizar servidor
+[17.01.01.04] interromper job
+[17.01.01.05] ativar job
+[17.01.01.06] desativar job
+[17.01.01.07] consultar jobs emitidos de todos os usuários
+[17.01.01.08] excluir job
+[17.01.02] relatórios gerados
+[17.01.02.01] exclusão em bloco de relatórios gerados
+[17.01.03] cockpit
+[17.01.04] segurança de jobs fracionáveis
+[17.01.04.01] incluir jobs fracionáveis
+[17.01.04.02] excluir jobs fracionáveis
+[17.01.04.03] editar jobs fracionáveis
+[17.02] configuração
+[17.02.01] diagnóstico do sistema
+[17.02.01.01] gerar diagnóstico
+[17.02.02] deploy granular
+[17.02.03] parâmetros
+[17.02.03.01] folha de pagamento
+[17.02.03.02] parâmetros globais
+[17.02.03.03] define integrações entre os vários sistemas componentes do erp
+[17.02.03.03.01] incluir integrações de sistemas
+[17.02.03.03.02] excluir integrações de sistemas
+[17.02.03.03.03] editar integrações de sistemas
+[17.03] totvs fluig
+[17.04] ajuda
+[17.04.01] sobre
+[17.04.02] links
+[18] permissões globais
+[18.01] filtros
+[18.01.01] filtros globais
+[18.01.02] filtros relatórios
+[18.02] processos
+[18.02.01] reportar para totvs
+[18.03] repositório de arquivos
+[18.03.01] inserir arquivo
+[18.03.02] remover arquivo
+[18.03.03] editar arquivo
