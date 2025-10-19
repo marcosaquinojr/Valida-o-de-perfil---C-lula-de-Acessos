@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Barril Dobrado Tecnologia</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛢️</text></svg>">
+    <script src="https://cdn.tailwindcss.com/3.4.1"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #f9fafb; }
+    </style>
+</head>
+<body class="text-gray-800">
+    <div class="container max-w-7xl mx-auto my-8 p-8 bg-white rounded-xl shadow-lg">
+        <!-- CABEÇALHO PRINCIPAL DA MARCA -->
+        <header class="flex justify-between items-center mb-8 border-b pb-4">
+            <div class="flex items-center gap-4">
+                <img src="{{ url_for('static', filename='logo-barril.png') }}" alt="Logo Barril Dobrado" class="h-12 w-12">
+                <div>
+                    <h1 class="text-3xl font-bold">Barril Dobrado Tecnologia</h1>
+                    <p class="text-gray-600">Soluções inteligentes para otimizar seu trabalho.</p>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <h2 class="text-2xl font-semibold mb-6">Nossos Aplicativos</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+                <!-- Card do Validador -->
+                <a href="{{ url_for('validator') }}" class="group block p-6 bg-gray-50 rounded-lg border border-gray-200 hover:border-blue-500 hover:bg-blue-50 cursor-pointer transition">
+                    <div class="h-10 w-10 flex items-center justify-center rounded-full bg-blue-100 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-800 group-hover:text-blue-600">Validador de Perfis VAR</h3>
+                    <p class="text-sm text-gray-600 mt-1">Análise comparativa de perfis para o sistema VAR.</p>
+                </a>
+                <!-- Card do Analisador de Riscos -->
+                <a href="{{ url_for('sod_analyzer') }}" class="group block p-6 bg-gray-50 rounded-lg border border-gray-200 hover:border-green-500 hover:bg-green-50 cursor-pointer transition">
+                    <div class="h-10 w-10 flex items-center justify-center rounded-full bg-green-100 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M10 21h7a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v11m0 5l4.879-4.879m0 0a3 3 0 104.243-4.242 3 3 0 00-4.243 4.242z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-800 group-hover:text-green-600">Analisador de Riscos SoD</h3>
+                    <p class="text-sm text-gray-600 mt-1">Identifica riscos de segregação de função (SoD).</p>
+                </a>
+            </div>
+        </main>
+    </div>
+     <footer class="text-center py-6 mt-4">
+        <p class="text-sm text-gray-500">
+            Desenvolvido por 
+            <a href="https://www.linkedin.com/in/marcosaquinojr/" target="_blank" rel="noopener noreferrer" class="font-medium text-blue-600 hover:underline">
+                Marcos Aquino
+            </a>
+        </p>
+    </footer>
+</body>
+</html>
+

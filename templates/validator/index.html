@@ -1,0 +1,345 @@
+{% extends "layout.html" %}
+{% block title %}Validador de Perfis VAR - {{ super() }}{% endblock %}
+
+{% block head_extra %}
+<style>
+    #config-button.active { color: var(--cor-primaria); background-color: #eff6ff;}
+</style>
+{% endblock %}
+
+{% block content %}
+<div id="validator-app">
+    <div class="flex justify-between items-center mb-4">
+         <nav aria-label="Breadcrumb">
+            <ol class="flex items-center gap-1.5 text-sm text-gray-600">
+                <li><a href="{{ url_for('home') }}" class="hover:underline">Início</a></li>
+                <li class="rtl:rotate-180">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" /></svg>
+                </li>
+                <li><span class="font-semibold text-gray-800">Validador de Perfis VAR</span></li>
+            </ol>
+        </nav>
+        <button id="config-button" onclick="openConfigModal()" title="Configurações" class="p-2 rounded-full text-gray-500 hover:bg-gray-100">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+        </button>
+    </div>
+    
+    <div class="border-b border-gray-200">
+        <nav id="validator-tabs" class="-mb-px flex gap-6" aria-label="Tabs">
+            <button class="tab-button active shrink-0 border-b-2 border-transparent px-1 pb-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700" onclick="openTab(event, 'comparar')">Comparar</button>
+            <button id="tab-button-analise" class="tab-button shrink-0 border-b-2 border-transparent px-1 pb-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700 hidden" onclick="openTab(event, 'analise')">Análise</button>
+        </nav>
+    </div>
+    
+    <div id="validator-content">
+        <div id="comparar" class="tab-content active py-8">
+             <form id="compareForm" class="space-y-6 bg-gray-50 p-6 rounded-lg border">
+                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label for="modulo" class="block text-sm font-medium text-gray-700 mb-2">Módulo de Referência</label>
+                        <select id="modulo" name="modulo" {% if not is_var_active %}disabled{% endif %} class="w-full p-3 border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+                             {% for modulo in modulos %}<option value="{{ modulo }}">{{ modulo }}</option>{% else %}<option disabled selected>Nenhuma base VAR ativa</option>{% endfor %}
+                        </select>
+                    </div>
+                    <div>
+                        <label for="arquivo_analise" class="block text-sm font-medium text-gray-700 mb-2">Sua Planilha (.xlsx) <a href="{{ url_for('static', filename='modelo_analise.xlsx') }}" class="text-blue-600 hover:underline text-xs" download>(Baixar modelo)</a></label>
+                        <input type="file" id="arquivo_analise" name="arquivo_analise" required accept=".xlsx" {% if not is_var_active %}disabled{% endif %} class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 focus:outline-none p-2.5 file:mr-4 file:py-1.5 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100">
+                    </div>
+                </div>
+                 <button type="button" onclick="executarComparacao()" {% if not is_var_active %}disabled{% endif %} class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg transition disabled:opacity-50">Executar Comparação</button>
+                 {% if not is_var_active %}
+                    <p class="text-center text-sm text-gray-500 pt-2">É necessário ativar uma Planilha VAR nas Configurações para poder fazer uma análise.</p>
+                 {% endif %}
+            </form>
+            <div id="compare-message-container" class="mt-8"></div>
+            <div id="loading" class="text-center py-8 hidden">
+                <div class="animate-spin rounded-full h-10 w-10 border-b-2 border-blue-600 mx-auto"></div>
+                <p class="mt-3 text-gray-600">Analisando dados...</p>
+            </div>
+        </div>
+        
+        <div id="analise" class="tab-content hidden py-8">
+            <h3 class="text-xl font-semibold mb-4">Resultado da Análise</h3>
+            <div id="mensagem-container"></div>
+            <div class="max-h-[60vh] overflow-y-auto border border-gray-200 rounded-lg mt-6">
+                <table id="resultsTable" class="min-w-full divide-y divide-gray-200">
+                    <thead class="bg-gray-50 sticky top-0 z-10"></thead>
+                    <tbody class="bg-white divide-y divide-gray-200"></tbody>
+                </table>
+            </div>
+            <div class="mt-8 p-6 rounded-lg border bg-gray-50">
+                 <h3 class="text-xl font-bold text-gray-800 mb-4">Finalizar e Gerar Planilha</h3>
+                 <button id="generateButton" onclick="openModal()" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg transition">Gerar Planilha de Importação</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL DE IMPORTAÇÃO -->
+<div id="importModal" class="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full hidden z-50">
+  <div class="relative top-20 mx-auto p-5 border w-full max-w-md shadow-lg rounded-md bg-white">
+    <div class="mt-3 text-center">
+      <h3 class="text-lg leading-6 font-medium text-gray-900">Dados para Importação</h3>
+      <div class="mt-2 px-7 py-3">
+         <label for="perfil_id" class="block text-sm text-left font-medium text-gray-700">ID do Perfil</label>
+         <input type="text" id="perfil_id" required class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+         <label for="perfil_nome" class="block text-sm text-left font-medium text-gray-700 mt-4">Código do Perfil</label>
+         <input type="text" id="perfil_nome" required class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+      </div>
+      <div class="items-center px-4 py-3 gap-4 flex">
+        <button onclick="closeModal()" class="w-full px-4 py-2 bg-gray-200 text-gray-800 rounded-md hover:bg-gray-300 focus:outline-none">Cancelar</button>
+        <button onclick="gerarPlanilhaImportacao()" class="w-full px-4 py-2 bg-blue-600 text-white rounded-md shadow-sm hover:bg-blue-700 focus:outline-none">Gerar e Baixar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL DE CONFIGURAÇÕES -->
+<div id="configModal" class="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full hidden z-50">
+    <div class="relative top-10 mx-auto p-5 border w-full max-w-3xl shadow-lg rounded-md bg-white">
+        <div class="flex justify-between items-center border-b pb-3 mb-4">
+            <h3 class="text-lg leading-6 font-medium text-gray-900">Configurações do Validador</h3>
+            <button onclick="closeConfigModal()" class="p-1 rounded-full hover:bg-gray-200">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
+            </button>
+        </div>
+        <div id="configuracoes">
+            <form action="{{ url_for('upload_var') }}" method="post" enctype="multipart/form-data" class="bg-gray-50 p-6 rounded-lg border">
+                <label for="arquivo_var" class="block text-sm font-medium text-gray-700 mb-2">Fazer upload de nova versão da Planilha VAR (.xlsx)</label>
+                <input type="file" id="arquivo_var" name="file" accept=".xlsx" required class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 focus:outline-none p-2.5 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100">
+                <button type="submit" class="w-full mt-4 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg">Fazer Upload e Validar</button>
+            </form>
+            <hr class="my-8">
+            <h3 class="text-xl font-semibold mb-4">Histórico de Uploads</h3>
+            <div class="overflow-x-auto rounded-lg border max-h-[40vh] overflow-y-auto">
+                <table class="min-w-full divide-y divide-gray-200">
+                    <thead class="bg-gray-50 sticky top-0">
+                        <tr>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Arquivo</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Data</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Status</th>
+                            <th class="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white divide-y divide-gray-200">
+                        {% for item in historico %}
+                        <tr>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{{ item.nome_arquivo_original }}</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{{ item.timestamp_formatado }}</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm"><span class="status-badge bg-{{ 'blue-500' if item.status == 'Válido' else 'green-500' if item.status == 'Ativo' else 'red-500' if item.status == 'Inválido' else 'gray-500' }} text-white">{{ item.status }}</span></td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-center">
+                                {% if item.status == 'Válido' or item.status == 'Arquivado' %}
+                                    <a href="{{ url_for('ativar_var', upload_id=item.id) }}" class="text-green-600 hover:text-green-900 font-semibold">Ativar</a>
+                                {% endif %}
+                            </td>
+                        </tr>
+                        {% else %}
+                        <tr><td colspan="4" class="text-center text-gray-500 py-4">Nenhum upload realizado ainda.</td></tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    let currentData = [];
+
+    function openModal() { document.getElementById('importModal').classList.remove('hidden'); }
+    function closeModal() { document.getElementById('importModal').classList.add('hidden'); }
+    function openConfigModal() { document.getElementById('configModal').classList.remove('hidden'); }
+    function closeConfigModal() { document.getElementById('configModal').classList.add('hidden'); }
+
+    function openTab(evt, tabName) {
+        document.querySelectorAll('#validator-content .tab-content').forEach(tc => tc.classList.add('hidden'));
+        document.getElementById(tabName).classList.remove('hidden');
+        
+        document.querySelectorAll('#validator-tabs .tab-button').forEach(tb => tb.classList.remove('active'));
+
+        const tabButton = document.querySelector(`#validator-tabs .tab-button[onclick*="'${tabName}'"]`);
+         if (tabButton) {
+            tabButton.classList.add('active');
+        }
+    }
+
+
+    function handleComparisonError(formElement, messageContainer, message) {
+        messageContainer.innerHTML = `
+            <div class="flex items-center p-4 rounded-lg text-red-800 bg-red-50">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
+                </svg>
+                <div>
+                  <span class="font-bold">Ocorreu um erro:</span> ${message}
+                </div>
+            </div>
+        `;
+        formElement.classList.add('shake');
+        setTimeout(() => formElement.classList.remove('shake'), 820);
+    }
+
+    async function executarComparacao() {
+        const loadingDiv = document.getElementById('loading');
+        const form = document.getElementById('compareForm');
+        const botao = form.querySelector('button[type="button"]');
+        const formData = new FormData(form);
+        const messageContainer = document.getElementById('compare-message-container');
+        
+        messageContainer.innerHTML = '';
+
+        if (!document.getElementById('arquivo_analise').files[0]) {
+            handleComparisonError(form, messageContainer, "Por favor, selecione um arquivo para analisar.");
+            return;
+        }
+
+        loadingDiv.classList.remove('hidden');
+        botao.disabled = true;
+
+        try {
+            const response = await fetch("{{ url_for('comparar') }}", { method: 'POST', body: formData });
+            const result = await response.json();
+
+            if (!response.ok || result.erro) { 
+                throw new Error(result.erro || 'Ocorreu um erro desconhecido no servidor.'); 
+            }
+            
+            currentData = result.resultados || [];
+            displayAnalysisResults(result);
+            
+            openTab(null, 'analise');
+            
+        } catch (error) {
+            handleComparisonError(form, messageContainer, error.message);
+            console.error("Erro:", error);
+        } finally {
+            loadingDiv.classList.add('hidden');
+            botao.disabled = false;
+        }
+    }
+
+    function displayAnalysisResults(result) {
+        const mensagemContainer = document.getElementById('mensagem-container');
+        mensagemContainer.innerHTML = '';
+        mensagemContainer.className = '';
+
+        if (result.mensagem_status) {
+            const status = result.mensagem_status;
+            let alertClasses = 'font-medium p-4 mb-6 rounded-lg ';
+            if (status.tipo === 'sucesso') {
+                alertClasses += 'text-green-800 bg-green-50';
+            } else if (status.tipo === 'ressalva') {
+                alertClasses += 'text-yellow-800 bg-yellow-50';
+            } else if (status.tipo === 'alerta') {
+                alertClasses += 'text-red-800 bg-red-50';
+            }
+            mensagemContainer.className = alertClasses;
+            mensagemContainer.textContent = status.texto;
+        }
+
+        const table = document.getElementById('resultsTable');
+        const thead = table.querySelector('thead');
+        const tbody = table.querySelector('tbody');
+        thead.innerHTML = '';
+        tbody.innerHTML = '';
+
+        if (!result.resultados || result.resultados.length === 0) {
+            tbody.innerHTML = '<tr><td colspan="5" class="text-center p-4">Nenhum resultado para exibir.</td></tr>'; return;
+        }
+
+        const headersToShow = ['Status', 'Funcionalidade Analisada', 'ID Encontrado', 'Sugestão Similar (VAR)', 'Similaridade (%)'];
+        const headerRow = document.createElement('tr');
+        headersToShow.forEach(headerText => {
+            const th = document.createElement('th');
+            th.className = "px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider";
+            th.textContent = headerText;
+            headerRow.appendChild(th);
+        });
+        thead.appendChild(headerRow);
+        
+        result.resultados.forEach(rowData => {
+            const row = document.createElement('tr');
+            headersToShow.forEach(header => {
+                const cell = document.createElement('td');
+                cell.className = "px-6 py-4 text-sm align-top";
+                
+                const originalHeader = header;
+                switch(originalHeader) {
+                    case 'Status':
+                        const status = rowData.Status;
+                        let statusClass = 'bg-gray-100 text-gray-800';
+                        if (status === 'Encontrado') statusClass = 'bg-green-100 text-green-800';
+                        if (status === 'Divergente') statusClass = 'bg-red-100 text-red-800';
+                        if (status === 'Divergente com Sugestão') statusClass = 'bg-yellow-100 text-yellow-800';
+                        cell.innerHTML = `<span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full ${statusClass}">${status}</span>`;
+                        break;
+                    case 'ID Encontrado':
+                        cell.textContent = rowData.Status === 'Divergente com Sugestão' ? rowData['ID Sugerido'] : rowData[originalHeader];
+                        cell.classList.add("text-gray-900", "font-medium");
+                        break;
+                    default:
+                        cell.textContent = rowData[originalHeader] || '';
+                        cell.classList.add(originalHeader === 'Funcionalidade Analisada' ? "text-gray-900" : "text-gray-500");
+                }
+                row.appendChild(cell);
+            });
+            tbody.appendChild(row);
+        });
+    }
+    
+    async function gerarPlanilhaImportacao() {
+        const perfilId = document.getElementById('perfil_id').value;
+        const perfilNome = document.getElementById('perfil_nome').value;
+
+        if (!perfilId || !perfilNome) {
+            const modalForm = document.getElementById('importModal').querySelector('.relative');
+            let modalMessageContainer = document.getElementById('modal-error');
+            if (!modalMessageContainer) {
+                modalMessageContainer = document.createElement('div');
+                modalMessageContainer.id = 'modal-error';
+                modalForm.querySelector('.mt-3').insertBefore(modalMessageContainer, modalForm.querySelector('.mt-2'));
+            }
+            handleComparisonError(modalForm, modalMessageContainer, 'Por favor, preencha o ID e o Código do Perfil.');
+            return;
+        }
+        
+        const payload = { resultados: currentData, perfil_id: perfilId, perfil_nome: perfilNome };
+        
+        try {
+            const response = await fetch("{{ url_for('gerar_importacao') }}", {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload),
+            });
+            if (!response.ok) {
+                const errorData = await response.json();
+                throw new Error(errorData.erro || 'Erro ao gerar a planilha.');
+            }
+            const blob = await response.blob();
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = response.headers.get('Content-Disposition')?.split('filename=')[1]?.replace(/"/g, '') || 'importacao_var.xlsx';
+            document.body.appendChild(a);
+            a.click();
+            a.remove();
+            window.URL.revokeObjectURL(url);
+            closeModal();
+        } catch (error) {
+            alert(`Falha ao gerar planilha: ${error.message}`);
+            console.error('Erro:', error);
+        }
+    }
+    
+    document.addEventListener('DOMContentLoaded', () => {
+         const params = new URLSearchParams(window.location.search);
+        const modalToOpen = params.get('open_modal');
+
+        if (modalToOpen === 'config') {
+            openConfigModal();
+        }
+    });
+</script>
+{% endblock %}
